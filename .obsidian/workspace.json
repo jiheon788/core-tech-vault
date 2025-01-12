@@ -13,14 +13,18 @@
             "state": {
               "type": "kanban",
               "state": {
-                "file": "이름 없는 보드 1.md",
+                "file": "KANBAN.md",
                 "kanbanViewState": {
                   "kanban-plugin": "board",
-                  "list-collapse": []
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
                 }
               },
               "icon": "lucide-trello",
-              "title": "이름 없는 보드 1"
+              "title": "KANBAN"
             }
           }
         ]
@@ -182,21 +186,21 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "1637362a0f473055",
+  "active": "920acdfed77bb045",
   "lastOpenFiles": [
-    "이름 없는 보드.md",
+    "README.md",
+    "옵시디언 콜아웃 문법.md",
+    "KANBAN.md",
+    "JavaScript/호이스팅.md",
+    "이름 없는 보드 1.md",
     "Web/브라우저 렌더링 파이프라인.md",
     "Network/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
     "Network/TCP vs UDP.md",
-    "JavaScript/호이스팅.md",
     "JavaScript/클로저.md",
     "JavaScript/실행 컨텍스트.md",
-    "README.md",
-    "이름 없는 보드 1.md",
     "React/Strict mode의 목적.md",
     "React/JSX (JavaScript XML).md",
     "React/Concurrent Rendering.md",
-    "옵시디언 콜아웃 문법.md",
     "Network/HTTP 상태 코드.md",
     "Web/Modern CSS with Zero Runtime CSS.md",
     "Network/3-way handshake.md",
