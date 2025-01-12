@@ -1,3 +1,8 @@
 [
-  "obsidian-git"
+  "obsidian-git",
+  "various-complements",
+  "obsidian-kanban",
+  "graph-analysis",
+  "dataview",
+  "obsidian-linter"
 ]
