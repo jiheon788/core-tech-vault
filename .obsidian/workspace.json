@@ -11,14 +11,16 @@
             "id": "1637362a0f473055",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
+                "file": "이름 없는 보드 1.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-trello",
+              "title": "이름 없는 보드 1"
             }
           }
         ]
@@ -182,13 +184,16 @@
   },
   "active": "1637362a0f473055",
   "lastOpenFiles": [
-    "이름 없는 보드 1.md",
-    "README.md",
-    "React/Strict mode의 목적.md",
     "이름 없는 보드.md",
+    "Web/브라우저 렌더링 파이프라인.md",
+    "Network/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
+    "Network/TCP vs UDP.md",
     "JavaScript/호이스팅.md",
     "JavaScript/클로저.md",
     "JavaScript/실행 컨텍스트.md",
+    "README.md",
+    "이름 없는 보드 1.md",
+    "React/Strict mode의 목적.md",
     "React/JSX (JavaScript XML).md",
     "React/Concurrent Rendering.md",
     "옵시디언 콜아웃 문법.md",
@@ -196,9 +201,6 @@
     "Web/Modern CSS with Zero Runtime CSS.md",
     "Network/3-way handshake.md",
     "JavaScript/this.md",
-    "Network/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
-    "Network/TCP vs UDP.md",
-    "Web/브라우저 렌더링 파이프라인.md",
     "Web/Reflow와 Repaint.md",
     "Network",
     "무제 파일 1.md",

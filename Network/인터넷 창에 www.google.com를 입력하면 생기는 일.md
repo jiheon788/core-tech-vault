@@ -4,7 +4,7 @@
 브라우저는 캐시된 DNS 기록을 먼저 확인하고, 없으면 로컬 DNS 서버에 요청하여 "[www.google.com"에](http://www.google.xn--com"-eg0s/) 해당하는 IP 주소를 얻는다.
 
 ### 2. TCP 연결 수립
-IP 주소가 확인되면, 브라우저는 서버와 [[]] 연결을 수립한다. 이 과정에서 브라우저는 서버와 3-way handshake를 수행한다. 
+IP 주소가 확인되면, 브라우저는 서버와 [[TCP vs UDP#TCP|TCP]]연결을 수립한다. 이 과정에서 브라우저는 서버와 [[3-way handshake]]를 수행한다. 
 
 ![[TCP vs UDP#TCP]]
 
