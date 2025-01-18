@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "React에서 불변성이 중요한 이유"
             }
+          },
+          {
+            "id": "0e6bf99272b54355",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mutation의 개념과 활용.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Mutation의 개념과 활용"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,11 +234,13 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "920acdfed77bb045",
+  "active": "0e6bf99272b54355",
   "lastOpenFiles": [
-    "무제 폴더",
-    "옵시디언 콜아웃 문법.md",
+    "무제 파일 1.md",
+    "Mutation의 개념과 활용.md",
+    "Dev",
     "Web/React/React에서 불변성이 중요한 이유.md",
+    "옵시디언 콜아웃 문법.md",
     "Web/Nextjs/Nextjs 렌더링.md",
     "JavaScript/호이스팅.md",
     "Web/Nextjs",
@@ -245,7 +261,6 @@
     "JavaScript/this.md",
     "Web/Reflow와 Repaint.md",
     "Network",
-    "무제 파일 1.md",
     "Web",
     "Pasted image 20250111230725.png",
     "create a link.md",
@@ -254,7 +269,6 @@
     "스크린샷 2024-09-28 오후 10.03.03.png",
     "스크린샷 2024-09-28 오후 10.03.03 1.png",
     "Welcome.md",
-    "2025-01-11.md",
     "Web/React",
     "JavaScript"
   ]
