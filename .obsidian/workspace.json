@@ -41,15 +41,15 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Po.canvas",
+                "file": "Portfolio.canvas",
                 "viewState": {
-                  "x": 133.64770542775977,
-                  "y": -12.113780715002873,
-                  "zoom": -1.0311735645929974
+                  "x": 261.5422836634179,
+                  "y": 81.54117342874814,
+                  "zoom": -0.9919193498293558
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Po"
+              "title": "Portfolio"
             }
           }
         ],
@@ -226,7 +226,7 @@
   "active": "0e6bf99272b54355",
   "lastOpenFiles": [
     "JavaScript/Mutation의 개념과 활용.md",
-    "Po.canvas",
+    "Portfolio.canvas",
     "KANBAN.md",
     "Web/React/React에서 불변성이 중요한 이유.md",
     "무제 파일 1.md",

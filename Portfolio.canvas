@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"2a54a434b38a6be5","type":"text","text":"# 리팩토링ㄴ","x":-125,"y":-220,"width":250,"height":250,"color":"3"},
+		{"id":"2a54a434b38a6be5","type":"text","text":"# 리팩토링","x":-125,"y":-220,"width":250,"height":250,"color":"3"},
 		{"id":"5c2b8d80050f771d","type":"file","file":"JavaScript/Mutation의 개념과 활용.md","x":240,"y":-220,"width":480,"height":700},
 		{"id":"726b4b4d32a79c42","type":"text","text":"ㄴㅊㄴㄹ\n","x":-125,"y":480,"width":250,"height":60}
 	],
