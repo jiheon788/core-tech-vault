@@ -191,8 +191,9 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "1637362a0f473055",
+  "active": "920acdfed77bb045",
   "lastOpenFiles": [
+    "Nextjs",
     "KANBAN.md",
     "README.md",
     "옵시디언 콜아웃 문법.md",
@@ -203,9 +204,9 @@
     "Network/TCP vs UDP.md",
     "JavaScript/클로저.md",
     "JavaScript/실행 컨텍스트.md",
-    "React/Strict mode의 목적.md",
-    "React/JSX (JavaScript XML).md",
-    "React/Concurrent Rendering.md",
+    "Web/React/Strict mode의 목적.md",
+    "Web/React/JSX (JavaScript XML).md",
+    "Web/React/Concurrent Rendering.md",
     "Network/HTTP 상태 코드.md",
     "Web/Modern CSS with Zero Runtime CSS.md",
     "Network/3-way handshake.md",
@@ -222,7 +223,7 @@
     "스크린샷 2024-09-28 오후 10.03.03 1.png",
     "Welcome.md",
     "2025-01-11.md",
-    "React",
+    "Web/React",
     "JavaScript"
   ]
 }
