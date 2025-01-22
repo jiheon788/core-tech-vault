@@ -7,3 +7,4 @@
 
 
 Concurrent Mode로 설정하기 위해서는 기존의 render 대신 createRoot를 사용하면 된다. Concurrent Mode로 설정하면 개선된 기능(Automatic Batching)들과 동시처리를 위한 startTransition, useTransition, useDeferredValue 훅들을 사용할 수 있다.
+

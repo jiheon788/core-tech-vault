@@ -39,17 +39,14 @@
             "id": "0e6bf99272b54355",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Portfolio.canvas",
-                "viewState": {
-                  "x": 261.5422836634179,
-                  "y": 81.54117342874814,
-                  "zoom": -0.9919193498293558
-                }
+                "file": "Web/React/Concurrent Rendering.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Portfolio"
+              "icon": "lucide-file",
+              "title": "Concurrent Rendering"
             }
           }
         ],
@@ -225,8 +222,8 @@
   },
   "active": "0e6bf99272b54355",
   "lastOpenFiles": [
-    "JavaScript/Mutation의 개념과 활용.md",
     "Portfolio.canvas",
+    "JavaScript/Mutation의 개념과 활용.md",
     "KANBAN.md",
     "Web/React/React에서 불변성이 중요한 이유.md",
     "무제 파일 1.md",
