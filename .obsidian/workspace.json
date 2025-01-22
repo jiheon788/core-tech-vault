@@ -84,14 +84,17 @@
             "id": "ed342cd36b4e3075",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "JavaScript/번들러.md",
-                "mode": "source",
-                "source": false
+                "file": "Portfolio.canvas",
+                "viewState": {
+                  "x": 497.5,
+                  "y": -30,
+                  "zoom": -0.12022553231809942
+                }
               },
-              "icon": "lucide-file",
-              "title": "번들러"
+              "icon": "lucide-layout-dashboard",
+              "title": "Portfolio"
             }
           }
         ],
@@ -277,9 +280,9 @@
   },
   "active": "ed342cd36b4e3075",
   "lastOpenFiles": [
+    "JavaScript/번들러.md",
     "JavaScript/CJS vs ESM.md",
     "JavaScript/package.json.md",
-    "JavaScript/번들러.md",
     "Portfolio.canvas",
     "옵시디언 콜아웃 문법.md",
     "Web/React/Concurrent Rendering.md",
