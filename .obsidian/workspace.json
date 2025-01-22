@@ -39,18 +39,63 @@
             "id": "0e6bf99272b54355",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Portfolio.canvas",
+                "viewState": {
+                  "x": 297.5,
+                  "y": 160,
+                  "zoom": -0.5935622910658518
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Portfolio"
+            }
+          },
+          {
+            "id": "382152bc3bfb73da",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "Web/React/Concurrent Rendering.md",
+                "file": "JavaScript/CJS vs ESM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Concurrent Rendering"
+              "title": "CJS vs ESM"
+            }
+          },
+          {
+            "id": "0d3cbcfced64324d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/번들러.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "번들러"
+            }
+          },
+          {
+            "id": "ed342cd36b4e3075",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/package.json.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "package.json"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -194,6 +239,16 @@
             "id": "ec8b0985e868cad5",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "d77c5ba720199f55",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -201,7 +256,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -220,15 +275,19 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "0e6bf99272b54355",
+  "active": "920acdfed77bb045",
   "lastOpenFiles": [
+    "JavaScript/번들러.md",
+    "JavaScript/package.json.md",
+    "JavaScript/CJS vs ESM.md",
     "Portfolio.canvas",
+    "옵시디언 콜아웃 문법.md",
+    "Web/React/Concurrent Rendering.md",
     "JavaScript/Mutation의 개념과 활용.md",
     "KANBAN.md",
     "Web/React/React에서 불변성이 중요한 이유.md",
     "무제 파일 1.md",
     "Dev",
-    "옵시디언 콜아웃 문법.md",
     "Web/Nextjs/Nextjs 렌더링.md",
     "JavaScript/호이스팅.md",
     "Web/Nextjs",
@@ -241,7 +300,6 @@
     "JavaScript/실행 컨텍스트.md",
     "Web/React/Strict mode의 목적.md",
     "Web/React/JSX (JavaScript XML).md",
-    "Web/React/Concurrent Rendering.md",
     "Network/HTTP 상태 코드.md",
     "Web/Modern CSS with Zero Runtime CSS.md",
     "Network/3-way handshake.md",
@@ -251,10 +309,8 @@
     "Web",
     "Pasted image 20250111230725.png",
     "create a link.md",
-    "ㄷㅎ.md",
     "스크린샷 2024-09-28 오후 10.03.03.png",
     "스크린샷 2024-09-28 오후 10.03.03 1.png",
-    "Welcome.md",
     "Web/React",
     "JavaScript"
   ]
