@@ -84,17 +84,14 @@
             "id": "ed342cd36b4e3075",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Portfolio.canvas",
-                "viewState": {
-                  "x": 497.5,
-                  "y": -30,
-                  "zoom": -0.12022553231809942
-                }
+                "file": "2025-01-23.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Portfolio"
+              "icon": "lucide-file",
+              "title": "2025-01-23"
             }
           }
         ],
@@ -280,10 +277,11 @@
   },
   "active": "ed342cd36b4e3075",
   "lastOpenFiles": [
+    "Portfolio.canvas",
+    "2025-01-23.md",
     "JavaScript/번들러.md",
     "JavaScript/CJS vs ESM.md",
     "JavaScript/package.json.md",
-    "Portfolio.canvas",
     "옵시디언 콜아웃 문법.md",
     "Web/React/Concurrent Rendering.md",
     "JavaScript/Mutation의 개념과 활용.md",
@@ -307,11 +305,9 @@
     "Web/Modern CSS with Zero Runtime CSS.md",
     "Network/3-way handshake.md",
     "JavaScript/this.md",
-    "Web/Reflow와 Repaint.md",
     "Network",
     "Web",
     "Pasted image 20250111230725.png",
-    "create a link.md",
     "스크린샷 2024-09-28 오후 10.03.03.png",
     "스크린샷 2024-09-28 오후 10.03.03 1.png",
     "Web/React",
