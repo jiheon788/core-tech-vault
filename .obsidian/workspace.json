@@ -11,17 +11,14 @@
             "id": "ed342cd36b4e3075",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Portfolio.canvas",
-                "viewState": {
-                  "x": 100.82364440700121,
-                  "y": 75.79247869147368,
-                  "zoom": -0.2950621889680068
-                }
+                "file": "Web/React/Tanstack Query.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Portfolio"
+              "icon": "lucide-file",
+              "title": "Tanstack Query"
             }
           },
           {
@@ -241,12 +238,12 @@
   },
   "active": "ed342cd36b4e3075",
   "lastOpenFiles": [
+    "Portfolio.canvas",
     "assets/박지헌_Resume_250131.pdf",
     "assets/박지헌_Resume_241031.pdf",
     "assets",
     "Web/React/Tanstack Query.md",
     "2025-01-23.md",
-    "Portfolio.canvas",
     "Web/Nextjs/Nextjs 렌더링.md",
     "Web/React/Strict mode의 목적.md",
     "JavaScript/번들러.md",
