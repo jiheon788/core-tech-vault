@@ -11,17 +11,14 @@
             "id": "c45772276e2664ab",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Portfolio.canvas",
-                "viewState": {
-                  "x": 540,
-                  "y": 578,
-                  "zoom": -1.1980949292785166
-                }
+                "file": "Dev/모노레포.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Portfolio"
+              "icon": "lucide-file",
+              "title": "모노레포"
             }
           }
         ]
@@ -199,6 +196,16 @@
             "id": "bd403ea9a9507116",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "cbad285faa6da2ce",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -206,7 +213,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
@@ -227,6 +234,7 @@
   },
   "active": "c45772276e2664ab",
   "lastOpenFiles": [
+    "Portfolio.canvas",
     "Dev/모노레포.md",
     "JavaScript/번들러.md",
     "assets/Pasted image 20250131183700.png",
@@ -234,7 +242,6 @@
     "Dev",
     "React/JSX (JavaScript XML).md",
     "React/Strict mode의 목적.md",
-    "Portfolio.canvas",
     "assets/박지헌_Resume_250131.pdf",
     "assets/박지헌_Resume_241031.pdf",
     "assets",
