@@ -30,9 +30,14 @@ staleTime
 
 ###### `cacheTime` 이 `staleTime`보다 커야한다 ?  
 
-만약 `staleTime`이 더 크다면,  캐싱된 데이터를 영구히 사용할 것처럼 보인다. 하지만 쿼리가 다시 활성화 될때 네트워크 요청이 필요하기에 cacheTime이 더 커야한다는 주장이다.
+> 만약 `staleTime`이 `cacheTime`보다 크면, 데이터가 
+> - **아직 신선해야 하는데**
+> - 이미 캐시에서 삭제되어버려서
+> - 새로 요청을 보내야 하는 이상한 상황이 생김.
+> - 즉, **"신선함"을 판단하려면 데이터가 캐시에 남아 있어야 하기 때문에 `cacheTime` 이 `staleTime`보다 커야한다는 주장이 있다.
 
 [TkDodo의 reply](https://github.com/TanStack/query/discussions/1685#discussioncomment-1876723)에 따르면 TkDodo는 이 의견에 동의하지 않는다고 한다. 구성 요소가 마운트되어 있는 한, `cacheTime`는 중요하지 않다. (관계없음)
+
 예컨대, staleTime이 60분일지라도 유저가 자주 사용하지 않는 데이터라면 굳이 gcTime을 60분 이상으로 설정하여 메모리를 낭비할 필요가 없다. 
 
 ###### 최적의 staleTime, gcTime ?
