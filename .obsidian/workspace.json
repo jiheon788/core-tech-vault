@@ -15,9 +15,9 @@
               "state": {
                 "file": "Portfolio.canvas",
                 "viewState": {
-                  "x": 239.7405357142856,
-                  "y": 199.45646428571433,
-                  "zoom": -0.12022553231809942
+                  "x": -268.87727296325386,
+                  "y": 202.44927445720924,
+                  "zoom": -0.2950621889680068
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -38,8 +38,7 @@
               "title": "Tanstack Query"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -240,10 +239,13 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "bd403ea9a9507116",
+  "active": "ed342cd36b4e3075",
   "lastOpenFiles": [
-    "2025-01-23.md",
+    "assets/박지헌_Resume_250131.pdf",
+    "assets/박지헌_Resume_241031.pdf",
+    "assets",
     "Web/React/Tanstack Query.md",
+    "2025-01-23.md",
     "Portfolio.canvas",
     "Web/Nextjs/Nextjs 렌더링.md",
     "Web/React/Strict mode의 목적.md",
