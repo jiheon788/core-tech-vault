@@ -191,11 +191,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "library/React/React의 렌더링 방식.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "나가는 링크"
+              "title": "React의 렌더링 방식 의 나가는 링크"
             }
           },
           {
@@ -205,10 +206,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "태그"
             }
           },
           {
@@ -292,12 +295,11 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -311,7 +313,7 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "0304bf3fa8a966c7",
+  "active": "5073bc37b5ca2eeb",
   "lastOpenFiles": [
     "Web/Modern CSS with Zero Runtime CSS.md",
     "assets/Pasted image 20250131205029.png",
