@@ -39,17 +39,14 @@
             "id": "e7a491baf2c131d5",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Portfolio.canvas",
-                "viewState": {
-                  "x": 181.87728489055056,
-                  "y": 47.774311023403,
-                  "zoom": -0.9372185504641368
-                }
+                "file": "Dev/반응형 프로그래밍.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Portfolio"
+              "icon": "lucide-file",
+              "title": "반응형 프로그래밍"
             }
           }
         ],
@@ -266,11 +263,11 @@
   },
   "active": "e7a491baf2c131d5",
   "lastOpenFiles": [
+    "Portfolio.canvas",
     "JavaScript/For Loop vs Higher Order Functions.md",
     "Dev/반응형 프로그래밍.md",
     "Dev/모노레포.md",
     "assets/Pasted image 20250131192646.png",
-    "Portfolio.canvas",
     "JavaScript/번들러.md",
     "assets/Pasted image 20250131183700.png",
     "React/Tanstack Query.md",
@@ -300,7 +297,6 @@
     "Network/TCP vs UDP.md",
     "JavaScript/클로저.md",
     "JavaScript/실행 컨텍스트.md",
-    "Network/HTTP 상태 코드.md",
     "Network",
     "Web",
     "Pasted image 20250111230725.png",
