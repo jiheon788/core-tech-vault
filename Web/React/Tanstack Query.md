@@ -32,9 +32,12 @@ staleTime
 
 만약 `staleTime`이 더 크다면,  캐싱된 데이터를 영구히 사용할 것처럼 보인다. 하지만 쿼리가 다시 활성화 될때 네트워크 요청이 필요하기에 cacheTime이 더 커야한다는 주장이다.
 
-[TkDodo의 reply](https://github.com/TanStack/query/discussions/1685#discussioncomment-1876723)에 따르면 TkDodo는 `staleTime을 gcTime보다 작게 설정하는 것이 좋다.`는 의견에 동의하지 않는다고 한다. 예컨대, staleTime이 60분일지라도 유저가 자주 사용하지 않는 데이터라면 굳이 gcTime을 60분 이상으로 설정하여 메모리를 낭비할 필요가 없다.
+[TkDodo의 reply](https://github.com/TanStack/query/discussions/1685#discussioncomment-1876723)에 따르면 TkDodo는 이 의견에 동의하지 않는다고 한다. 구성 요소가 마운트되어 있는 한, `cacheTime`는 중요하지 않다. (관계없음)
+예컨대, staleTime이 60분일지라도 유저가 자주 사용하지 않는 데이터라면 굳이 gcTime을 60분 이상으로 설정하여 메모리를 낭비할 필요가 없다. 
 
+###### 최적의 staleTime, gcTime ?
 리액트 쿼리를 기본 설정으로 사용하는 경우 네트워크 요청 횟수가 더 많아진다. staleTime에 어떠한 설정도 하지 않으면 해당 쿼리를 사용하는 컴포넌트(Observer)가 mount 됐을 때 매번 다시 API를 요청한다.
+
 TkDodo는 `cacheTime`을 변경하는 경우는 거의 없었고, time 설정 중 하나를 조정하는 경우에는 보통 `staleTime`을 조정하여 해결한다고 한다.
 
 - 변경이 자주 일어나지 않는 데이터: `staleTime`을 조정하여 불필요한 네트워크 요청 횟수 감소
