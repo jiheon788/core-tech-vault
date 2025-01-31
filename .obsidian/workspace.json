@@ -39,14 +39,17 @@
             "id": "e7a491baf2c131d5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Dev/반응형 프로그래밍.md",
-                "mode": "source",
-                "source": false
+                "file": "Portfolio.canvas",
+                "viewState": {
+                  "x": 350,
+                  "y": 80,
+                  "zoom": -1.5200230241658792
+                }
               },
-              "icon": "lucide-file",
-              "title": "반응형 프로그래밍"
+              "icon": "lucide-layout-dashboard",
+              "title": "Portfolio"
             }
           }
         ],
@@ -263,13 +266,17 @@
   },
   "active": "e7a491baf2c131d5",
   "lastOpenFiles": [
-    "Portfolio.canvas",
-    "JavaScript/For Loop vs Higher Order Functions.md",
     "Dev/반응형 프로그래밍.md",
     "Dev/모노레포.md",
     "assets/Pasted image 20250131192646.png",
-    "JavaScript/번들러.md",
     "assets/Pasted image 20250131183700.png",
+    "Web/Modern CSS with Zero Runtime CSS.md",
+    "Web/Reflow와 Repaint.md",
+    "옵시디언 콜아웃 문법.md",
+    "Portfolio.canvas",
+    "README.md",
+    "JavaScript/For Loop vs Higher Order Functions.md",
+    "JavaScript/번들러.md",
     "React/Tanstack Query.md",
     "Dev",
     "React/JSX (JavaScript XML).md",
@@ -281,7 +288,6 @@
     "Nextjs/Nextjs 렌더링.md",
     "JavaScript/CJS vs ESM.md",
     "JavaScript/package.json.md",
-    "옵시디언 콜아웃 문법.md",
     "React/Concurrent Rendering.md",
     "JavaScript/Mutation의 개념과 활용.md",
     "KANBAN.md",
@@ -290,13 +296,10 @@
     "Dev",
     "JavaScript/호이스팅.md",
     "Nextjs",
-    "README.md",
     "이름 없는 보드 1.md",
     "Web/브라우저 렌더링 파이프라인.md",
     "Network/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
     "Network/TCP vs UDP.md",
-    "JavaScript/클로저.md",
-    "JavaScript/실행 컨텍스트.md",
     "Network",
     "Web",
     "Pasted image 20250111230725.png",
