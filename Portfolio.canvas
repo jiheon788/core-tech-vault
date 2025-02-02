@@ -4,15 +4,21 @@
 		{"id":"2f7e9ba9e62d0666","type":"file","file":"library/Tanstack Query.md","x":1320,"y":-260,"width":580,"height":400},
 		{"id":"62bc4b8ebec6808b","type":"file","file":"JavaScript/For Loop vs Higher Order Functions.md","x":1320,"y":-1360,"width":580,"height":400},
 		{"id":"601f345acfe0b849","type":"text","text":"### 시프티- 코어 모듈 라이브러리 분리 및 최적화\n상황:\n- 자료형 모듈과 비즈니스 로직 강결합\n- 부족한 문서화\n- **함수형을 위한 성능 오버헤드**: 뮤테이션으로 인한 복사비용, 고차함수 등\n\t- 함수형의 목적은 선언적인 작성으로 코드의 가독성과 유지보수를 높임\n\t- 하지만 코어모듈은 변경, 유지보수가 거의 없기에 성능에 초점을 맞추길 제안\n문제:\n- 낮은 성능\n- 높은 결합도\n- 순환 의존성\n해결:\n- 의존성 역전(DIP): 구체적인 것에 의존하지 않고 추상클래스를 중간에 두어 해결\n- 라이브러리 분리 및 문서화\n- 알고리즘 개선\n\t- 지역적 mutation 제거 O(n^2) -> O(n) [[Mutation의 개념과 활용]]\n\t- 선언적인 고차함수에서 명령형 적인 for loop 사용 [[For Loop vs Higher Order Functions]]\n\t- forEach, indexOf로 중복을 찾는 O(n^2) 걸리던 로직을 Set 자료형을 통해 O(n) 으로 개선\n평가:\n- 기존 하드코딩하여 여러 프로젝트에서 사용되던 코어모듈을 중앙화된 라이브러리로 분리하여 유지보수 향상\n- 성능 최대 90%향상","x":160,"y":-1040,"width":580,"height":380,"color":"3"},
-		{"id":"e31d1d970ed7aa2a","type":"file","file":"assets/박지헌_Resume_250131.pdf","x":-1200,"y":-660,"width":485,"height":660,"color":"6"},
-		{"id":"2a54a434b38a6be5","type":"text","text":"#  성능최적화\n\n- 가상스크롤링\n- 초기로딩속도개선\n\t- 상호작용 시 불러오기\n\t- 트리쉐이킹\n\n최적화를 통해 얻을 수 있는 이점 ? -> 더 나은 사용자 경험과 SEO -> \n좋은 사용자 경험은 무엇일까? -> 사용자가 목적을 직관적이고 빠르게 달성\n\n\n최적화 원칙\n- 조기 최적화는 지양, 모든 최적화는 트레이드오프가 따른다.\n- 가장 좋은 코드는 실행되지 않는 코드다","x":160,"y":920,"width":625,"height":600,"color":"3"},
-		{"id":"0c3733d8aceb6c09","type":"file","file":"JavaScript/Mutation의 개념과 활용.md","x":1320,"y":-850,"width":580,"height":400}
+		{"id":"0c3733d8aceb6c09","type":"file","file":"JavaScript/Mutation의 개념과 활용.md","x":1320,"y":-850,"width":580,"height":400},
+		{"id":"e31d1d970ed7aa2a","type":"file","file":"assets/박지헌_Resume_250131.pdf","x":-1180,"y":-660,"width":485,"height":660,"color":"6"},
+		{"id":"e16d8cb2a49cbbad","x":160,"y":760,"width":580,"height":480,"color":"3","type":"text","text":"### 티맥스알지 - 디지털 교과서: MFA: iFrame 기반 Shell + Nx 모노레포\n상황\n- 디지털교과서 사업은 여러 팀, 회사들이 참여하여 각각의 교과목 앱들을 만드는 방식\n- 독립적인 개발-빌드-배포 생명주기를 가진 여러 앱들의 통합하는 쉘 성격의 프로젝트\n문제\n- 공통로직 의존성, 데브옵스 등을 효율걱\n해결\n평가"},
+		{"id":"2a54a434b38a6be5","type":"text","text":"#  성능최적화\n\n- 가상스크롤링\n- 초기로딩속도개선\n\t- 상호작용 시 불러오기\n\t- 트리쉐이킹\n\n최적화를 통해 얻을 수 있는 이점 ? -> 더 나은 사용자 경험과 SEO -> \n좋은 사용자 경험은 무엇일까? -> 사용자가 목적을 직관적이고 빠르게 달성\n\n\n최적화 원칙\n- 조기 최적화는 지양, 모든 최적화는 트레이드오프가 따른다.\n- 가장 좋은 코드는 실행되지 않는 코드다","x":160,"y":2320,"width":625,"height":600,"color":"3"},
+		{"id":"9868cc3b1d6db7c9","x":478,"y":2716,"width":250,"height":60,"type":"text","text":""},
+		{"id":"038591b932d2ab30","type":"text","text":"### 티맥스알지 -  디지털 교과서: MFA: Nx 모노레포\n\n\n문제: ","x":160,"y":1520,"width":580,"height":360,"color":"3"},
+		{"id":"6f1a13adc61c7a35","x":1320,"y":760,"width":580,"height":400,"type":"file","file":"MFA (Micro Frontend Architecture).md"}
 	],
 	"edges":[
 		{"id":"2ddf0e03ede6a064","fromNode":"e31d1d970ed7aa2a","fromSide":"right","toNode":"7f663221f77e8e83","toSide":"left"},
 		{"id":"2c2998b3c8e284ed","fromNode":"7f663221f77e8e83","fromSide":"right","toNode":"2f7e9ba9e62d0666","toSide":"left"},
 		{"id":"8a1880df10289423","fromNode":"e31d1d970ed7aa2a","fromSide":"right","toNode":"601f345acfe0b849","toSide":"left"},
 		{"id":"15102c4ebd3308db","fromNode":"601f345acfe0b849","fromSide":"right","toNode":"62bc4b8ebec6808b","toSide":"left"},
-		{"id":"ace42d6d7610339a","fromNode":"601f345acfe0b849","fromSide":"right","toNode":"0c3733d8aceb6c09","toSide":"left"}
+		{"id":"ace42d6d7610339a","fromNode":"601f345acfe0b849","fromSide":"right","toNode":"0c3733d8aceb6c09","toSide":"left"},
+		{"id":"277902ed8744ecb6","fromNode":"e31d1d970ed7aa2a","fromSide":"right","toNode":"e16d8cb2a49cbbad","toSide":"left"},
+		{"id":"2138e7e4fa4adb3b","fromNode":"e31d1d970ed7aa2a","fromSide":"right","toNode":"038591b932d2ab30","toSide":"left"}
 	]
 }
