@@ -288,6 +288,16 @@
             "id": "cbad285faa6da2ce",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "84e9f11c168bf40c",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -295,7 +305,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 11
       }
     ],
     "direction": "horizontal",
@@ -313,7 +323,7 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "5073bc37b5ca2eeb",
+  "active": "84e9f11c168bf40c",
   "lastOpenFiles": [
     "Web/Modern CSS with Zero Runtime CSS.md",
     "assets/Pasted image 20250131205029.png",
