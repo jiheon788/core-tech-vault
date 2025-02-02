@@ -15,9 +15,9 @@
               "state": {
                 "file": "Portfolio.canvas",
                 "viewState": {
-                  "x": 863.3686742988962,
-                  "y": 1202.3551046886432,
-                  "zoom": -0.6712798609942169
+                  "x": 425.16076914537877,
+                  "y": -1391.0186511296683,
+                  "zoom": -0.533780279021458
                 }
               },
               "icon": "lucide-layout-dashboard",
@@ -105,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 271.5
+    "width": 271.5,
+    "collapsed": true
   },
   "right": {
     "id": "2763178f83b10622",
@@ -271,17 +272,19 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "5073bc37b5ca2eeb",
+  "active": "59a366c3891323a8",
   "lastOpenFiles": [
+    "JavaScript/Module Federation.md",
     "Portfolio.canvas",
-    "JavaScript/Yarn.md",
     "Dev/Monorepo.md",
+    "JavaScript/번들러.md",
+    "README.md",
+    "옵시디언 콜아웃 문법.md",
+    "JavaScript/Yarn.md",
     "Dev/MFA (Micro Frontend Architecture).md",
     "JavaScript/package.json.md",
-    "JavaScript/Module Federation.md",
     "2025-02-02.md",
     "JavaScript/this.md",
-    "JavaScript/번들러.md",
     "Yarn, Yarn Berry.md",
     "JavaScript/CJS vs ESM.md",
     "library/React/React의 렌더링 방식.md",
@@ -310,8 +313,6 @@
     "library/Tanstack Query.md",
     "library/RxJS.md",
     "library",
-    "옵시디언 콜아웃 문법.md",
-    "README.md",
     "Dev",
     "assets/박지헌_Resume_241031.pdf",
     "assets",
