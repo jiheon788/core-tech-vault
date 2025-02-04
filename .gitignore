@@ -1,1 +1,4 @@
 .DS_Store
+.trash
+assets/*.pdf
+Portfolio.canvas
