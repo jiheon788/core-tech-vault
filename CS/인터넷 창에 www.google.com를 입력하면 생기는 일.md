@@ -6,14 +6,9 @@
 
 ### 2. TCP 연결 수립
 IP 주소가 확인되면, 브라우저는 서버와 [[TCP vs UDP#TCP|TCP]]연결을 수립한다. 이 과정에서 브라우저는 서버와 [[3-way handshake]]를 수행한다. 
-
-![[TCP vs UDP#TCP]]
-
-![[3-way handshake]]
-
 ### 3. HTTP 요청
 
-TCP 연결이 수립되면, 브라우저는 HTTP 또는 HTTPS 요청을 보낸다.
+TCP 연결이 수립되면, 브라우저는 [[HTTP vs HTTPS#HTTP (HyperText Transfer Protocol)|HTTP]] 또는 [[HTTP vs HTTPS#HTTPS (HyperText Transfer Protocol Secure)|HTTPS]] 요청을 보낸다.
 
 >[!tip]
 > 만약 HTTPS를 사용할 경우, 이 단계 이전에 SSL/TLS 핸드셰이크도 수행한다. 이 과정에서는 브라우저와 서버가 암호화된 연결을 설정하기 위해 보안 인증서를 교환하고, 암호화 키를 협상한다.

@@ -16,7 +16,7 @@
 ### `staleTime` vs `gcTime`
 
 각각의 설정을 통해 데이터를 더 효율적으로 관리하고, 불필요한 네트워크 요청을 줄이면서도 최신 데이터를 가져올 수 있도록 합니다.
-staleTime
+###### `staleTime`
 - 데이터가 신선한 상태로 간주하는 시간 (fresh에서 stale로 전환될 때까지의 기간)
 - 쿼리가 fresh한 한, 데이터는 항상 캐시에서만 읽힙니다 (네트워크 요청은 발생x)
 - 디폴트: 0 (받은 시점에서 이 데이터는 stale 하다고 간주)
@@ -28,7 +28,6 @@ staleTime
 - **캐시된 데이터를 stale 상태에서도 유지**하여, 네트워크 요청이 진행되는 동안 **캐시 데이터를 즉시 렌더링할 수 있게 만드는 역할**
 - 이렇게 
 - 디폴트: 5분
-
 ###### `cacheTime` 이 `staleTime`보다 커야한다 ?  
 
 > 만약 `staleTime`이 `cacheTime`보다 크면, 데이터가 
@@ -37,7 +36,7 @@ staleTime
 > - 새로 요청을 보내야 하는 이상한 상황이 생김.
 > - 즉, "신선함"을 판단하려면 데이터가 캐시에 남아 있어야 하기 때문에 `cacheTime` 이 `staleTime`보다 커야한다는 주장이 있다. **"staleTime ≤ cacheTime"**
 
-[TkDodo의 reply](https://github.com/TanStack/query/discussions/1685#discussioncomment-1876723)에 따르면 TkDodo는 이 의견에 동의하지 않는다고 한다. 구===성 요소가 마운트되어 있는 한, `cacheTime`는 중요하지 않다. (관계없음)=== `cacheTime`은 **쿼리가 비활성화된 후(마지막 구독자가 사라진 후)에만 영향을 미친다**
+[TkDodo의 reply](https://github.com/TanStack/query/discussions/1685#discussioncomment-1876723)에 따르면 TkDodo는 이 의견에 동의하지 않는다고 한다. ==구성 요소가 마운트되어 있는 한, `cacheTime`는 중요하지 않다. (관계없음)== `cacheTime`은 **쿼리가 비활성화된 후(마지막 구독자가 사라진 후)에만 영향을 미친다**
 
 예컨대, staleTime이 60분일지라도 유저가 자주 사용하지 않는 데이터라면 굳이 gcTime을 60분 이상으로 설정하여 메모리를 낭비할 필요가 없다. 
 

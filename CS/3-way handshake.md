@@ -1,7 +1,7 @@
 # 3-way handshake
 
 >[!summary]
-> 브라우저가 SYN 패킷을 보내고, 서버가 SYN-ACK 패킷을 보내며, 다시 브라우저가 ACK 패킷을 보내는 과정이다.
+> TCP의 기본적인 연결 확립을 위해 브라우저가 SYN 패킷을 보내고, 서버가 SYN-ACK 패킷을 보내며, 다시 브라우저가 ACK 패킷을 보내는 과정이다.
 
 3-way handshake는 [[TCP vs UDP#TCP|TCP]] 연결을 설정하기 위한 과정이다. 
 
