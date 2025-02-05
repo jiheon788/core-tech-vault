@@ -41,30 +41,86 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/HTTP vs HTTPS.md",
+                "file": "CS/TCP vs UDP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "HTTP vs HTTPS"
+              "title": "TCP vs UDP"
             }
           },
           {
-            "id": "2817a5d60d800580",
+            "id": "901b2a819f9083e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/암호화 키.md",
+                "file": "CS/CORS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "암호화 키"
+              "title": "CORS"
+            }
+          },
+          {
+            "id": "fecceea8354a5440",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/CORS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CORS"
+            }
+          },
+          {
+            "id": "7378a0a18f795277",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/XSS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "XSS"
+            }
+          },
+          {
+            "id": "47f2f7f26c05f48a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/인증인가.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "인증인가"
+            }
+          },
+          {
+            "id": "d14347c2ec033657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/CSRF.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "CSRF"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -256,8 +312,15 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "920acdfed77bb045",
+  "active": "47f2f7f26c05f48a",
   "lastOpenFiles": [
+    "CS/Preflight.md",
+    "CS/인증인가.md",
+    "CS/CSRF.md",
+    "Web/브라우저 렌더링 파이프라인.md",
+    "CS/XSS.md",
+    "CS/CORS.md",
+    "CS/TCP vs UDP.md",
     "CS/HTTP vs HTTPS.md",
     "CS/암호화 키.md",
     "CS/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
@@ -265,9 +328,7 @@
     "CS/3-way handshake.md",
     "CS/HTTP 상태 코드.md",
     "CS/SQL vs NoSQL.md",
-    "CS/TCP vs UDP.md",
     "CS/멱등성.md",
-    "Web/브라우저 렌더링 파이프라인.md",
     "Library/RxJS.md",
     "Web/Reflow와 Repaint.md",
     "Web/Modern CSS with Zero Runtime CSS.md",
@@ -279,11 +340,6 @@
     "Library/React/Strict mode의 목적.md",
     "Library/React/React의 상태 (State).md",
     "Library/React/React의 렌더링 방식.md",
-    "Library/React/React에서 불변성이 중요한 이유.md",
-    "Library/React/JSX (JavaScript XML).md",
-    "Library/React/Hooks.md",
-    "Library/React/FLUX 패턴.md",
-    "Library/React/Concurrent Rendering.md",
     "assets/Pasted image 20250203212428.png",
     "assets/Pasted image 20250203212221.png",
     "assets/Pasted image 20250203212037.png",
