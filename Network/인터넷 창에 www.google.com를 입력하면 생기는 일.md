@@ -1,3 +1,4 @@
+# 인터넷 창에 www.google.com를 입력하면 생기는 일
 ### 1.  DNS 조회
 
 사용자가 "[www.google.com"을](http://www.google.xn--com"-jy1s/) 입력하면, 브라우저는 먼저 이 도메인 이름을 IP 주소로 변환해야한다. (aka. DNS 조회, DNS Lookup) 

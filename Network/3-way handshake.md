@@ -1,3 +1,5 @@
+# 3-way handshake
+
 >[!summary]
 > 브라우저가 SYN 패킷을 보내고, 서버가 SYN-ACK 패킷을 보내며, 다시 브라우저가 ACK 패킷을 보내는 과정이다.
 

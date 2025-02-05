@@ -1,9 +1,9 @@
-### package.json
+# package.json
+
 Node.js 프로젝트에서 사용되는 파일로 메타 정보들을 담고있다. (이름, 버전, 라이센스, 의존성 등)
-### package-lock.json
+##### package-lock.json
 정확히 동일한 종속성을 설치하기 위함.
 
-##### `npm i` vs `npm ci`
 **`npm i`**
 프로젝트에 필요한 패키지 설치하는 명령어다. 특정 패키지 설치나 프로젝트가 의존하고 있는 모든 패키지를 설치하여 node_modules에 적재한다.
 

@@ -1,5 +1,5 @@
 
-
+# For Loop vs Higher Order Functions
 ### 고차함수의 장점
 
 함수형에서는 왜 while, for 문 보다 map, reduce같은 고차함수를 쓰는가? 검색해서 나온 장점은 다음과 같다.

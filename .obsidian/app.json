@@ -1,4 +1,8 @@
 {
   "trashOption": "local",
-  "attachmentFolderPath": "assets"
+  "attachmentFolderPath": "assets",
+  "alwaysUpdateLinks": true,
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": true,
+  "showInlineTitle": false
 }

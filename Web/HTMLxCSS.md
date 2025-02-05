@@ -1,4 +1,5 @@
-# HTML
+# HTMLxCSS
+### HTML
 HTML은 Hyper Text Markup Language의 약자다.
 
 하이퍼 텍스트는 하이퍼 링크를 이용해 원하는 순서에 따라 다른 문서로 접근 할수 있다는 뜻이다. 즉 하이퍼 텍스트는 책처럼 한장한장 차례로 읽는 전통적 접근 방식이 아닌 링크라는 통로를 통해 원하는 페이지로 도착하는 접근 방식을 가지고 있다.
@@ -14,7 +15,7 @@ e.g.
 - 수령인: 구름(goorm)
 - 연락처: 031-xxx-xxxx
 
-# CSS
+### CSS
 
 CSS는 Cascading style sheets의 약자다. 한글로는 폭포식, 계단식 스타일 시트.
 

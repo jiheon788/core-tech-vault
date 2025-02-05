@@ -1,3 +1,4 @@
+# TCP vs UDP
 ### TCP
 TCP(Transmission Control Protocol)는 데이터를 신뢰성 있게 전달하기 위한 프로토콜이다.
 - 안정성 우선

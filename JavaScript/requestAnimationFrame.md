@@ -1,3 +1,4 @@
+# requestAnimationFrame
 requestAnimationFrame은 브라우저가 화면을 다시 그리기 전에 호출할 함수를 예약하는 방법입니다.
 
 - 브라우저의 렌더링 주기에 맞추어 이벤트를 트리거하기 때문에, 모니터의 가변 주사율 이상으로 호출되지 않는다.
