@@ -95,18 +95,35 @@
             "id": "47f2f7f26c05f48a",
             "type": "leaf",
             "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Portfolio.canvas",
+                "viewState": {
+                  "x": 450.4983002595008,
+                  "y": 2342.241999033197,
+                  "zoom": -0.38175549058194674
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "Portfolio"
+            }
+          },
+          {
+            "id": "6ed7407b6fbba605",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/인증인가.md",
+                "file": "JavaScript/Module Federation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "인증인가"
+              "title": "Module Federation"
             }
           },
           {
-            "id": "d14347c2ec033657",
+            "id": "5f3f99e8593034c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -120,7 +137,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -288,6 +305,16 @@
             "id": "24888d4ed1a043db",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "3f869663ed3567bd",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -312,11 +339,15 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "47f2f7f26c05f48a",
+  "active": "5073bc37b5ca2eeb",
   "lastOpenFiles": [
-    "CS/Preflight.md",
-    "CS/인증인가.md",
+    "Dev/MFA (Micro Frontend Architecture).md",
+    "Portfolio.canvas",
+    "Web/브라우저 저장소.md",
     "CS/CSRF.md",
+    "Web/Reflow와 Repaint.md",
+    "CS/인증인가.md",
+    "CS/Preflight.md",
     "Web/브라우저 렌더링 파이프라인.md",
     "CS/XSS.md",
     "CS/CORS.md",
@@ -330,7 +361,6 @@
     "CS/SQL vs NoSQL.md",
     "CS/멱등성.md",
     "Library/RxJS.md",
-    "Web/Reflow와 Repaint.md",
     "Web/Modern CSS with Zero Runtime CSS.md",
     "Web/HTMLxCSS.md",
     "Web/CSS 박스모델.md",
@@ -338,15 +368,12 @@
     "Library/React/Virtual DOM.md",
     "Library/React/useEffect에서 `async` 함수를 직접 사용하지 않는 이유.md",
     "Library/React/Strict mode의 목적.md",
-    "Library/React/React의 상태 (State).md",
-    "Library/React/React의 렌더링 방식.md",
     "assets/Pasted image 20250203212428.png",
     "assets/Pasted image 20250203212221.png",
     "assets/Pasted image 20250203212037.png",
     "assets/Pasted image 20250203191943.png",
     "assets/Pasted image 20250203191936.png",
     "HTMLxCSS",
-    "Portfolio.canvas",
     "assets/Pasted image 20250131205029.png",
     "assets/Pasted image 20250131205259.png",
     "assets/Pasted image 20250131205303.png",

@@ -30,7 +30,8 @@ sequenceDiagram
 
 	- 공격자는 사용자가 bank.com에 로그인한 상태임을 노림.
 	- 악성 사이트는 숨겨진 `<img>` 태그 또는 `<form>`을 이용해 **bank.com에 요청을 자동으로 보냄.**
-```html
+
+```jsx
 <img src="https://bank.com/transfer?to=attacker&amount=1000">
 
 %% or %%
