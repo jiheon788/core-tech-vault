@@ -2,7 +2,7 @@
 React에서 ==상태(State)란 컴포넌트의 데이터를 의미하며, 상태가 변경될 때 리렌더링이 발생한다==
 
 - React는 **단방향 데이터 흐름 (unidirectional data flow)** 을 사용하며, 상태가 변경되면 해당 상태를 사용하는 컴포넌트가 리렌더링된다.
-- 상태는 보통 `useState` 혹은 `useReducer`를 통해 컴포넌트 내부에서 관리된다.
+- 상태는 보통 [[Hooks#useState|useState]], `useReducer`를 통해 컴포넌트 내부에서 관리된다.
 
 #### **상태(State)의 특징**
 
