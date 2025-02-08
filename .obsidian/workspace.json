@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/requestIdleCallback.md",
+                "file": "Dev/개발 원칙.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "requestIdleCallback"
+              "title": "개발 원칙"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "JavaScript/requestIdleCallback.md",
+                "file": "Dev/개발 원칙.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "requestIdleCallback 의 백링크"
+              "title": "개발 원칙 의 백링크"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "JavaScript/requestIdleCallback.md",
+                "file": "Dev/개발 원칙.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "requestIdleCallback 의 나가는 링크"
+              "title": "개발 원칙 의 나가는 링크"
             }
           },
           {
@@ -152,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "JavaScript/requestIdleCallback.md",
+                "file": "Dev/개발 원칙.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "requestIdleCallback 의 개요"
+              "title": "개발 원칙 의 개요"
             }
           },
           {
@@ -218,10 +218,10 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "5073bc37b5ca2eeb",
+  "active": "d1bc0bfb30cccb1a",
   "lastOpenFiles": [
-    "Library/Angular/데이터 바인딩(Data Binding).md",
     "JavaScript/requestIdleCallback.md",
+    "Library/Angular/데이터 바인딩(Data Binding).md",
     "Web/Async, defer.md",
     "Web/브라우저 렌더링 파이프라인.md",
     "Dev/순환 참조.md",
