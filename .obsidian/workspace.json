@@ -4,24 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "6fe2353b97bb1c3c",
+        "id": "80b93db1d962ebda",
         "type": "tabs",
         "children": [
           {
-            "id": "02747d5f6abc19a0",
+            "id": "d1bc0bfb30cccb1a",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Portfolio.canvas",
-                "viewState": {
-                  "x": 768.1800000000023,
-                  "y": 4629.779999999999,
-                  "zoom": 0
-                }
+                "file": "JavaScript/requestIdleCallback.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Portfolio"
+              "icon": "lucide-file",
+              "title": "requestIdleCallback"
             }
           }
         ]
@@ -56,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Portfolio 의",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/디자인 시스템.md",
+                "file": "JavaScript/requestIdleCallback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "디자인 시스템 의 백링크"
+              "title": "requestIdleCallback 의 백링크"
             }
           },
           {
@@ -117,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/디자인 시스템.md",
+                "file": "JavaScript/requestIdleCallback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "디자인 시스템 의 나가는 링크"
+              "title": "requestIdleCallback 의 나가는 링크"
             }
           },
           {
@@ -156,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Portfolio.canvas",
+                "file": "JavaScript/requestIdleCallback.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Portfolio 의 개요"
+              "title": "requestIdleCallback 의 개요"
             }
           },
           {
@@ -180,46 +176,6 @@
             }
           },
           {
-            "id": "24888d4ed1a043db",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
-          },
-          {
-            "id": "3f869663ed3567bd",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
-          },
-          {
-            "id": "217c842b6600edc6",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
-            }
-          },
-          {
-            "id": "bbb50e3e61290dc8",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {},
-              "icon": "GA-ICON",
-              "title": "Graph Analysis"
-            }
-          },
-          {
             "id": "faeda507ed906407",
             "type": "leaf",
             "state": {
@@ -232,6 +188,16 @@
               },
               "icon": "lucide-list",
               "title": "Portfolio 의 개요"
+            }
+          },
+          {
+            "id": "756d2e37b12d9366",
+            "type": "leaf",
+            "state": {
+              "type": "graph-analysis",
+              "state": {},
+              "icon": "GA-ICON",
+              "title": "Graph Analysis"
             }
           }
         ],
@@ -252,34 +218,36 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "f2d61c64466100bc",
+  "active": "5073bc37b5ca2eeb",
   "lastOpenFiles": [
-    "Web/message API.md",
-    "JavaScript/가비지콜렉션.md",
-    "Dev/MVC, MVVM.md",
-    "Library/React/React의 상태 (State).md",
-    "Library/React/전역 상태 라이브러리 비교.md",
-    "Library/Tanstack Query.md",
-    "Library/Angular/Angular.md",
-    "Library/Angular/Dependency Injection (DI).md",
-    "Dev/함수형 프로그래밍.md",
-    "Dev/반응형 프로그래밍.md",
-    "Library/RxJS.md",
-    "Library/Angular/Angular CLI.md",
-    "Library/Angular/Directive.md",
-    "Library/Angular/Change Detection.md",
-    "Dev/프론트엔드 테스트 종류.md",
-    "Library/React/파이버(Fiber).md",
     "Library/Angular/데이터 바인딩(Data Binding).md",
-    "Library/Angular/AngularJS vs Angular.md",
+    "JavaScript/requestIdleCallback.md",
+    "Web/Async, defer.md",
+    "Web/브라우저 렌더링 파이프라인.md",
+    "Dev/순환 참조.md",
+    "Dev/개발 원칙.md",
+    "JavaScript/자바스크립트 깊은 복사.md",
+    "JavaScript/프록시.md",
+    "JavaScript/프로토타입.md",
+    "JavaScript/가비지콜렉션.md",
+    "JavaScript/Yarn.md",
+    "JavaScript/var let const.md",
     "JavaScript/Typescript.md",
-    "Library/React/FLUX 패턴.md",
-    "Library/React/Concurrent Rendering.md",
-    "Library/Nextjs/Nextjs 렌더링.md",
-    "JavaScript/호이스팅.md",
-    "Library/Angular/Incremental DOM.md",
+    "JavaScript/Top-Level Await.md",
+    "JavaScript/CJS vs ESM.md",
+    "JavaScript/Debouncing과 Throttling.md",
+    "JavaScript/For Loop vs Higher Order Functions.md",
     "JavaScript/Mutation의 개념과 활용.md",
-    "Library/React/React 18, 19.md",
+    "JavaScript/package.json.md",
+    "JavaScript/이벤트 버블링(Bubbling)과 캡처링(Capturing).md",
+    "JavaScript/이벤트 위임(Event Delegation).md",
+    "JavaScript/즉시실행함수 (IIFE).md",
+    "JavaScript/apply, call, bind.md",
+    "JavaScript/this.md",
+    "assets/Pasted image 20250208211926.png",
+    "Library/React/useEffect에서 `async` 함수를 직접 사용하지 않는 이유.md",
+    "Library/React/Virtual DOM.md",
+    "무제.canvas",
     "Portfolio.canvas",
     "assets/Pasted image 20250207224338.png",
     "assets/Pasted image 20250207212257.png",
@@ -291,7 +259,6 @@
     "HTMLxCSS",
     "assets/Pasted image 20250131205029.png",
     "assets/Pasted image 20250131205259.png",
-    "assets/Pasted image 20250131205303.png",
     "assets/박지헌_Resume_250131.pdf",
     "Library/Angular",
     "Library",

@@ -27,10 +27,23 @@ React Hooks는 **함수형 컴포넌트에서 상태(state)와 생명주기(life
 
 ##### useEffect
 - **렌더링이 완료되는 시점**에 **비동기적**으로 실행 (화면이 실제로 사용자에게 그려진 후)
-- 렌더링 후에 실행되며 특정 값이 변경될 때 실행되도록 설정 가능
+- ==렌더링 후에 실행되며 특정 값이 변경될 때 실행되도록 설정 가능==
 - 외부 시스템과 컴포넌트 동기화할 떄 사용한다.
 	- state를 기준으로 리액트와 상관 없는 구성요소 제어
 	- 데이터를 가져오는 작업이나 이벤트 리스너 추가 등 **렌더링 후에 화면에 직접적인 영향을 주지 않는 작업**
+```tsx
+const Comp = (props) => {
+	const [state, setState] = useState(null);
+	const ref = useRef(1);
+
+	useEffect(() => {
+		console.log('useEffect 작동')
+	}, [state, props, ref.current])
+	// state 변경 -> 리렌더링 ok -> 작동 ok
+	// props 변경 -> 리렌더링 ok -> 작동 ok
+	// ref 변경 -> 리렌더링 x -> 작동 x (리렌더링이 유발되어야 한다)
+}
+```
 
 ##### useLayoutEffect
 - **렌더링 후 DOM이 업데이트되기 직전의 시점**에 **동기적**으로 실행 -> 화면에 내용이 그려지기 전에 모든 레이아웃 관련 작업이 완료
@@ -42,7 +55,6 @@ React Hooks는 **함수형 컴포넌트에서 상태(state)와 생명주기(life
 >2. useLayoutEffect 실행: DOM이 업데이트 된 직후, 화면이 그려지기 전에 실행
 >3. 화면 그리기: 브라우저가 변경된 내용 화면에 표시
 >4. useEffect 실행: 화면이 그려진 후에 실행
-
 
 ### useCallback, useMemo, React.memo의 차이
 useCallback, useMemo, React.memo는 렌더링을 최소한으로 줄이기 위한 훅
