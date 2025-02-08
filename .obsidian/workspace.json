@@ -25,17 +25,115 @@
             }
           },
           {
-            "id": "fb036afc182e52c8",
+            "id": "10b97b6a03cc8248",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/React/React의 렌더링 방식.md",
+                "file": "Library/React/FLUX 패턴.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React의 렌더링 방식"
+              "title": "FLUX 패턴"
+            }
+          },
+          {
+            "id": "8248661fea17d573",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/Angular/Angular.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Angular"
+            }
+          },
+          {
+            "id": "48b87ff3cf0af6ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/Angular/Dependency Injection (DI).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dependency Injection (DI)"
+            }
+          },
+          {
+            "id": "df98528a7897c0b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/프론트엔드 테스트 종류.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "프론트엔드 테스트 종류"
+            }
+          },
+          {
+            "id": "74774544e73c9c81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/함수형 프로그래밍.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "함수형 프로그래밍"
+            }
+          },
+          {
+            "id": "cc86059c833eb4b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/Angular/Angular.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Angular"
+            }
+          },
+          {
+            "id": "484975c6c5b5e347",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/함수형 프로그래밍.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "함수형 프로그래밍"
+            }
+          },
+          {
+            "id": "b32bb0cdc77cfd04",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Angular CLI.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Angular CLI"
             }
           },
           {
@@ -58,7 +156,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "프론트엔드 테스트 종류.md",
+                "file": "Dev/프론트엔드 테스트 종류.md",
                 "mode": "source",
                 "source": false
               },
@@ -67,7 +165,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -99,7 +197,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#태그",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,21 +281,6 @@
             }
           },
           {
-            "id": "f86daf035de6f189",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Dev/디자인 시스템.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "디자인 시스템 의 개요"
-            }
-          },
-          {
             "id": "5073bc37b5ca2eeb",
             "type": "leaf",
             "state": {
@@ -208,13 +291,17 @@
             }
           },
           {
-            "id": "52294af569596127",
+            "id": "f86daf035de6f189",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "새 탭"
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
             }
           },
           {
@@ -270,9 +357,23 @@
               "icon": "GA-ICON",
               "title": "Graph Analysis"
             }
+          },
+          {
+            "id": "faeda507ed906407",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "개요"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -291,34 +392,35 @@
   },
   "active": "5073bc37b5ca2eeb",
   "lastOpenFiles": [
-    "React 18, 19.md",
+    "Dev/함수형 프로그래밍.md",
+    "Dev/반응형 프로그래밍.md",
+    "Library/Angular/Angular.md",
+    "Library/RxJS.md",
+    "Angular CLI.md",
+    "Library/Angular/Directive.md",
+    "Library/Angular/Change Detection.md",
+    "Dev/프론트엔드 테스트 종류.md",
+    "Library/React/파이버(Fiber).md",
+    "Library/Angular/데이터 바인딩(Data Binding).md",
+    "Library/Angular/Dependency Injection (DI).md",
+    "Library/Angular/AngularJS vs Angular.md",
+    "JavaScript/Typescript.md",
+    "Library/React/FLUX 패턴.md",
+    "Library/React/Concurrent Rendering.md",
+    "Library/React/전역 상태 라이브러리 비교.md",
+    "Library/Nextjs/Nextjs 렌더링.md",
+    "JavaScript/호이스팅.md",
+    "Library/Angular/Incremental DOM.md",
+    "JavaScript/Mutation의 개념과 활용.md",
+    "Library/React/React 18, 19.md",
+    "Library/React/React의 렌더링 방식.md",
     "Portfolio.canvas",
     "JavaScript/비동기.md",
-    "프론트엔드 테스트 종류.md",
     "JavaScript/CJS vs ESM.md",
     "JavaScript/Top-Level Await.md",
     "Library/React/Strict mode의 목적.md",
     "assets/Pasted image 20250207224338.png",
-    "Dev/반응형 프로그래밍.md",
-    "CS/CSRF.md",
-    "CS/프로세스 vs 스레드.md",
-    "Library/React/전역 상태 라이브러리 비교.md",
-    "Dev/Docker & Kubernetes.md",
-    "JavaScript/Typescript.md",
     "assets/Pasted image 20250207212257.png",
-    "Web/Reflow와 Repaint.md",
-    "JavaScript/Module Federation.md",
-    "Dev/MFA (Micro Frontend Architecture).md",
-    "Web/브라우저 저장소.md",
-    "CS/인증인가.md",
-    "CS/Preflight.md",
-    "Web/브라우저 렌더링 파이프라인.md",
-    "CS/XSS.md",
-    "CS/CORS.md",
-    "CS/TCP vs UDP.md",
-    "CS/HTTP vs HTTPS.md",
-    "CS/암호화 키.md",
-    "CS/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
     "assets/Pasted image 20250203212428.png",
     "assets/Pasted image 20250203212221.png",
     "assets/Pasted image 20250203212037.png",
