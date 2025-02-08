@@ -13,15 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/개발 원칙.md",
+                "file": "Dev/함수형 프로그래밍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "개발 원칙"
+              "title": "함수형 프로그래밍"
+            }
+          },
+          {
+            "id": "072af2ba68ff0f44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JavaScript/Typescript.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Typescript"
+            }
+          },
+          {
+            "id": "713b58b90948ecaa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/Tanstack Query.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tanstack Query"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -194,6 +223,16 @@
             "id": "756d2e37b12d9366",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "6ac76f735f1a6cb5",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -218,35 +257,35 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "d1bc0bfb30cccb1a",
+  "active": "5073bc37b5ca2eeb",
   "lastOpenFiles": [
-    "JavaScript/requestIdleCallback.md",
-    "Library/Angular/데이터 바인딩(Data Binding).md",
-    "Web/Async, defer.md",
-    "Web/브라우저 렌더링 파이프라인.md",
-    "Dev/순환 참조.md",
-    "Dev/개발 원칙.md",
-    "JavaScript/자바스크립트 깊은 복사.md",
-    "JavaScript/프록시.md",
-    "JavaScript/프로토타입.md",
-    "JavaScript/가비지콜렉션.md",
-    "JavaScript/Yarn.md",
-    "JavaScript/var let const.md",
+    "Composition Pattern.md",
     "JavaScript/Typescript.md",
     "JavaScript/Top-Level Await.md",
-    "JavaScript/CJS vs ESM.md",
-    "JavaScript/Debouncing과 Throttling.md",
-    "JavaScript/For Loop vs Higher Order Functions.md",
-    "JavaScript/Mutation의 개념과 활용.md",
-    "JavaScript/package.json.md",
-    "JavaScript/이벤트 버블링(Bubbling)과 캡처링(Capturing).md",
-    "JavaScript/이벤트 위임(Event Delegation).md",
-    "JavaScript/즉시실행함수 (IIFE).md",
-    "JavaScript/apply, call, bind.md",
     "JavaScript/this.md",
+    "JavaScript/requestIdleCallback.md",
+    "JavaScript/requestAnimationFrame.md",
+    "JavaScript/package.json.md",
+    "JavaScript/Mutation의 개념과 활용.md",
+    "JavaScript/For Loop vs Higher Order Functions.md",
+    "JavaScript/Debouncing과 Throttling.md",
+    "JavaScript/이벤트 위임(Event Delegation).md",
+    "CS/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
+    "CS/프로세스 vs 스레드.md",
+    "CS/CSRF.md",
+    "CS/HTTP 상태 코드.md",
+    "CS/HTTP vs HTTPS.md",
+    "CS/Preflight.md",
+    "CS/XSS.md",
+    "Dev/개발 원칙.md",
+    "Dev/MVC, MVVM.md",
+    "Dev/Simplicity와 Complexity.md",
+    "Dev/Monorepo.md",
+    "Dev/MFA (Micro Frontend Architecture).md",
+    "Dev/Docker & Kubernetes.md",
+    "Dev/반응형 프로그래밍.md",
+    "Dev/디자인 시스템.md",
     "assets/Pasted image 20250208211926.png",
-    "Library/React/useEffect에서 `async` 함수를 직접 사용하지 않는 이유.md",
-    "Library/React/Virtual DOM.md",
     "무제.canvas",
     "Portfolio.canvas",
     "assets/Pasted image 20250207224338.png",

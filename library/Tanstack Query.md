@@ -38,7 +38,6 @@
 > - 즉, "신선함"을 판단하려면 데이터가 캐시에 남아 있어야 하기 때문에 `cacheTime` 이 `staleTime`보다 커야한다는 주장이 있다. **"staleTime ≤ cacheTime"**
 
 [TkDodo의 reply](https://github.com/TanStack/query/discussions/1685#discussioncomment-1876723)에 따르면 TkDodo는 이 의견에 동의하지 않는다고 한다. ==구성 요소가 마운트되어 있는 한, `cacheTime`는 중요하지 않다. (관계없음)== `cacheTime`은 **쿼리가 비활성화된 후(마지막 구독자가 사라진 후)에만 영향을 미친다**
-
 예컨대, staleTime이 60분일지라도 유저가 자주 사용하지 않는 데이터라면 굳이 gcTime을 60분 이상으로 설정하여 메모리를 낭비할 필요가 없다. 
 
 ###### 최적의 staleTime, gcTime ?
@@ -48,7 +47,6 @@ TkDodo는 `cacheTime`을 변경하는 경우는 거의 없었고, time 설정 �
 
 - 변경이 자주 일어나지 않는 데이터: `staleTime`을 조정하여 불필요한 네트워크 요청 횟수 감소
 - 자주 변경되는 데이터: 기본 설정을 바꾸지 않는 걸 추천 (st: 0, ct: 5m)
-
 
 ### 쿼리키 관리
 - [tkdodo의 블로그](https://tkdodo.eu/blog/effective-react-query-keys)에서 권장한 방법을 참고하여 쿼리키 팩토리를 통해 추후 변경에 용이하게 관리했습니다.
