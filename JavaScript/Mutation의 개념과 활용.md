@@ -1,24 +1,18 @@
 
 # Mutation의 개념과 활용
 ### Mutation
-
-기존에 Mutation을 단순히 ‘값을 변경하는 행위’로만 생각하였지만, 실제로는 조금 더 구체적인 의미를 가지고 있다. Mutation은 데이터를 **직접 변경**하는 작업이다.
-
 우선 데이터를 바꾸는 행위는 Reassignment(재할당)과 Mutation(변이)로 나눌 수 있다.
 
 **Reassignment (재할당)**
-
-원시타입은 불변(Immutable)이기 때문에 기존의 값을 변경하는 것이 아니라 새로운 값을 할당한다.
+[^1]원시타입은 불변(Immutable)이기 때문에 기존의 값을 변경하는 것이 아니라 새로운 값을 할당한다.
 
 ```jsx
-let a = 'Hi';
-a[0] = 'B'; // 변경되지 않는다.
-a = 'Bye' // a에 새로운 값이 재할당 된다
+let message = "Hello";
+message = "World"; // 기존 "Hello"를 수정하는 게 아니라 새로운 "World"라는 값을 만들어서 message에 다시 할당
 ```
 
 **Mutation (변이)**
-
-참조 타입에서는 데이터를 직접 변경할 수 있다.
+Mutation은 데이터를 **직접 변경**하는 작업이다. 참조 타입에서는 데이터를 직접 변경할 수 있다.
 
 ```jsx
 let arr = [1, 2, 3];
@@ -33,17 +27,15 @@ obj.firstName: 'hoon'; // 객체 내부의 값을 직접 변경
 ```
 
 ### 불변성(Immutability) 이란
-불변성(Immutability)은 **데이터를 직접 변경하지 않고 복사본을 만들어 사용하는 방식**이다.
+불변성(Immutability)은 데이터가 생성된 후 그 값을 변경할 수 없는 성질이다. **데이터를 직접 변경하지 않고 복사본을 만들어 사용하는 방식**은 불변성을 지키기 위한 기술적 방법이다
 
-불변성의 이점과 한계
 
 **불변성의 이점:**
 - 예측 가능한 코드
 - 안정성
 
 **불변성의 한계:**
-하지만 불변성을 항상 유지하는 것이 성능적으로 최선은 아닐 수 있다.
-
+하지만 불변성을 항상 유지하는 것이 성능적으로 최선은 아닐 수 있다. 복사 비용(Copy Cost)이 발생하기 때문이다. 
 예시로 배열 데이터를 특정 키(`id`)를 기준으로 Map 형태로 변환하는 코드를 두가지 방식으로 작성하였다.
 
 **불변성을 지킨 정규화**
@@ -94,3 +86,5 @@ function normalizeWithMutation(data) {
 ### 참조
 
 - [https://blog.bitsrc.io/understanding-javascript-mutation-and-pure-functions-7231cc2180d3](https://blog.bitsrc.io/understanding-javascript-mutation-and-pure-functions-7231cc2180d3)
+
+[^1]: 기존 값을 수정하는 게 아니라 새로운 값을 생성해서 변수에 다시 할당하는 것
