@@ -39,14 +39,17 @@
             "id": "9c6f7e2951c31154",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Library/React/상태업데이트 다른 결과.md",
-                "mode": "source",
-                "source": false
+                "file": "Portfolio.canvas",
+                "viewState": {
+                  "x": 629.5137876219048,
+                  "y": 5968.603545343229,
+                  "zoom": -0.675954895925793
+                }
               },
-              "icon": "lucide-file",
-              "title": "상태업데이트 다른 결과"
+              "icon": "lucide-layout-dashboard",
+              "title": "Portfolio"
             }
           }
         ],
@@ -123,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Library/React/상태업데이트 다른 결과.md",
+                "file": "Portfolio.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +136,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "상태업데이트 다른 결과 의 백링크"
+              "title": "Portfolio 의 백링크"
             }
           },
           {
@@ -142,12 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Library/React/상태업데이트 다른 결과.md",
+                "file": "Portfolio.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "상태업데이트 다른 결과 의 나가는 링크"
+              "title": "Portfolio 의 나가는 링크"
             }
           },
           {
@@ -270,6 +273,7 @@
   "active": "9c6f7e2951c31154",
   "lastOpenFiles": [
     "Web/Reflow와 Repaint.md",
+    "Library/React/상태업데이트 다른 결과.md",
     "Web/Modern CSS with Zero Runtime CSS.md",
     "Web/message API.md",
     "Web/HTMLxCSS.md",
@@ -294,7 +298,6 @@
     "Library/Angular/Incremental DOM.md",
     "Library/Angular/Directive.md",
     "Library/Angular/Dependency Injection (DI).md",
-    "Library/Angular/Change Detection.md",
     "Portfolio.canvas",
     "무제.canvas",
     "assets/Pasted image 20250208211926.png",
