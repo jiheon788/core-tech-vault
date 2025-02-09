@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Simplicity와 Complexity.md",
+                "file": "Library/React/상태업데이트 다른 결과.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Simplicity와 Complexity"
+              "title": "상태업데이트 다른 결과"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Simplicity와 Complexity.md",
+                "file": "Library/React/상태업데이트 다른 결과.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Simplicity와 Complexity 의 백링크"
+              "title": "상태업데이트 다른 결과 의 백링크"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Simplicity와 Complexity.md",
+                "file": "Library/React/상태업데이트 다른 결과.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Simplicity와 Complexity 의 나가는 링크"
+              "title": "상태업데이트 다른 결과 의 나가는 링크"
             }
           },
           {
@@ -254,8 +254,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -270,34 +269,34 @@
   },
   "active": "9c6f7e2951c31154",
   "lastOpenFiles": [
-    "Dev/MVC, MVVM.md",
-    "Dev/Monorepo.md",
-    "Dev/MFA (Micro Frontend Architecture).md",
-    "Dev/Docker & Kubernetes.md",
-    "Dev/함수형 프로그래밍.md",
-    "Dev/프론트엔드 테스트 종류.md",
-    "Dev/순환 참조.md",
-    "Dev/반응형 프로그래밍.md",
-    "Dev/디자인 시스템.md",
-    "상태업데이트 다른 결과.md",
-    "JavaScript/비동기.md",
+    "Web/Reflow와 Repaint.md",
+    "Web/Modern CSS with Zero Runtime CSS.md",
     "Web/message API.md",
-    "Portfolio.canvas",
-    "Library/Nextjs/Nextjs 렌더링.md",
-    "Library/React/Module Federation.md",
-    "무제.canvas",
-    "Library/RxJS.md",
+    "Web/HTMLxCSS.md",
+    "Web/CSS 박스모델.md",
+    "Web/브라우저 렌더링 파이프라인.md",
     "Library/Tanstack Query.md",
-    "JavaScript/Mutation의 개념과 활용.md",
-    "Library/React/Composition Pattern.md",
-    "JavaScript/Typescript.md",
-    "JavaScript/Top-Level Await.md",
-    "JavaScript/this.md",
-    "JavaScript/requestIdleCallback.md",
+    "Library/RxJS.md",
+    "Library/React/Virtual DOM.md",
+    "Library/React/useEffect에서 `async` 함수를 직접 사용하지 않는 이유.md",
+    "Library/React/Strict mode의 목적.md",
+    "Library/React/React의 상태 (State).md",
+    "Library/React/React의 렌더링 방식.md",
+    "Library/React/React에서 불변성이 중요한 이유.md",
+    "Library/React/React 18, 19.md",
+    "Library/React/Module Federation.md",
     "JavaScript/requestAnimationFrame.md",
-    "JavaScript/package.json.md",
-    "JavaScript/For Loop vs Higher Order Functions.md",
-    "JavaScript/Debouncing과 Throttling.md",
+    "Dev/MVC, MVVM.md",
+    "Library/React/Composition Pattern.md",
+    "Library/React/파이버(Fiber).md",
+    "Library/React/전역 상태 라이브러리 비교.md",
+    "Library/Nextjs/Nextjs 렌더링.md",
+    "Library/Angular/Incremental DOM.md",
+    "Library/Angular/Directive.md",
+    "Library/Angular/Dependency Injection (DI).md",
+    "Library/Angular/Change Detection.md",
+    "Portfolio.canvas",
+    "무제.canvas",
     "assets/Pasted image 20250208211926.png",
     "assets/Pasted image 20250207224338.png",
     "assets/Pasted image 20250207212257.png",

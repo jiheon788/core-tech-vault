@@ -14,7 +14,7 @@ AngularJS는 [[MVC, MVVM#MVC|MVC(모델-뷰-컨트롤러]]) 아키텍처 패턴�
 
 [[Angular]](Angular 2 이상)는 [[MVC, MVVM#MVVM|MVVM(Model-View-ViewModel)]] 아키텍처 패턴을 채택하여 기존 AngularJS의 한계를 개선한다.
 
-- 컴포넌트는 뷰모델(ViewModel)로 작동하며, 템플릿 바인딩을 통해 뷰와 상호작용한다.
+- 컴포넌트는 뷰모델(ViewModel)로 작동하며, 템플릿 바인딩을 통해 뷰와 상호작용한다. (**데이터 바인딩**을 통해 View와 자동으로 데이터를 동기화)
 - 뷰는 Angular 디렉티브(예: `ngIf`, `[(ngModel)]`)와 템플릿 문법을 사용하여 데이터를 UI에 반영한다.
 - Angular MVVM의 이점
 	- 뷰와 모델의 분리

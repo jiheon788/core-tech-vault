@@ -10,5 +10,5 @@
 - 마진: 바깥 여백
 
 ### box-sizing 옵션
-- box-sizing: border-box -> 가로세로 길이가 패딩과 테두리를 포함, 
-- box-sizing: content-box ->  width와 height 속성은 기본적으로 content 영역만을 지정
+- box-sizing: border-box -> width와 height 속성 패딩과 테두리를 포함
+- box-sizing: content-box ->  width와 height 속성 content 영역만을 지정

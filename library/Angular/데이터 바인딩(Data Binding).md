@@ -10,13 +10,15 @@
     - 속성 바인딩 (Property Binding)
         - DOM 속성에 데이터를 바인딩
         - e.g. `[disabled]="true"
+        
 ```html
 <button [disabled]="hasPendingChanges"></button>
 ```
+
 	- 이벤트 바인딩 (Event Binding)        
-        - 뷰에서 컴포넌트로 이벤트를 전달
-        - (뷰에서 컴포넌트의 메서드를 호출)
-        - e.g. `(event)="handlerMethod()"`
+		- 뷰에서 컴포넌트로 이벤트를 전달
+		- (뷰에서 컴포넌트의 메서드를 호출)
+		- e.g. `(event)="handlerMethod()"`
         
 ```tsx
 <button (click)="saveChanges()">Save Changes</button>
