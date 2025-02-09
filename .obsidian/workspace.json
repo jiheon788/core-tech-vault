@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/함수형 프로그래밍.md",
+                "file": "Dev/Monorepo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "함수형 프로그래밍"
-            }
-          },
-          {
-            "id": "072af2ba68ff0f44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "JavaScript/Typescript.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Typescript"
+              "title": "Monorepo"
             }
           },
           {
@@ -41,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/RxJS.md",
+                "file": "Library/React/Module Federation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RxJS"
+              "title": "Module Federation"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +92,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "2763178f83b10622",
@@ -123,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Library/RxJS.md",
+                "file": "Dev/Monorepo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "RxJS 의 백링크"
+              "title": "Monorepo 의 백링크"
             }
           },
           {
@@ -142,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Library/RxJS.md",
+                "file": "Dev/Monorepo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "RxJS 의 나가는 링크"
+              "title": "Monorepo 의 나가는 링크"
             }
           },
           {
@@ -267,8 +253,13 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "5073bc37b5ca2eeb",
+  "active": "d1bc0bfb30cccb1a",
   "lastOpenFiles": [
+    "Portfolio.canvas",
+    "Library/React/Module Federation.md",
+    "무제.canvas",
+    "Dev/함수형 프로그래밍.md",
+    "Library/RxJS.md",
     "Library/Tanstack Query.md",
     "JavaScript/Mutation의 개념과 활용.md",
     "Library/React/Composition Pattern.md",
@@ -291,13 +282,7 @@
     "Dev/개발 원칙.md",
     "Dev/MVC, MVVM.md",
     "Dev/Simplicity와 Complexity.md",
-    "Dev/Monorepo.md",
-    "Dev/MFA (Micro Frontend Architecture).md",
-    "Dev/Docker & Kubernetes.md",
-    "Dev/반응형 프로그래밍.md",
     "assets/Pasted image 20250208211926.png",
-    "무제.canvas",
-    "Portfolio.canvas",
     "assets/Pasted image 20250207224338.png",
     "assets/Pasted image 20250207212257.png",
     "assets/Pasted image 20250203212428.png",
