@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "JavaScript/Mutation의 개념과 활용.md",
+                "file": "Library/RxJS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Mutation의 개념과 활용"
+              "title": "RxJS"
             }
           }
         ],
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/개발 원칙.md",
+                "file": "Library/RxJS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "개발 원칙 의 백링크"
+              "title": "RxJS 의 백링크"
             }
           },
           {
@@ -142,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/개발 원칙.md",
+                "file": "Library/RxJS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "개발 원칙 의 나가는 링크"
+              "title": "RxJS 의 나가는 링크"
             }
           },
           {
@@ -233,6 +233,16 @@
             "id": "6ac76f735f1a6cb5",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "5b1f5531778fe6f1",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -257,17 +267,17 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "713b58b90948ecaa",
+  "active": "5073bc37b5ca2eeb",
   "lastOpenFiles": [
     "Library/Tanstack Query.md",
-    "Composition Pattern.md",
+    "JavaScript/Mutation의 개념과 활용.md",
+    "Library/React/Composition Pattern.md",
     "JavaScript/Typescript.md",
     "JavaScript/Top-Level Await.md",
     "JavaScript/this.md",
     "JavaScript/requestIdleCallback.md",
     "JavaScript/requestAnimationFrame.md",
     "JavaScript/package.json.md",
-    "JavaScript/Mutation의 개념과 활용.md",
     "JavaScript/For Loop vs Higher Order Functions.md",
     "JavaScript/Debouncing과 Throttling.md",
     "JavaScript/이벤트 위임(Event Delegation).md",

@@ -59,3 +59,34 @@ const JobCatalogsKeys = {
   children: (parentId: string) => [...JobCatalogsKeys.root(), parentId],
 };
 ```
+
+### Request Waterfall
+하나의 컴포넌트에서 여러 개의 Suspense Query를 호출할 경우 [^2]Request Waterfall이 발생한다. 
+```tsx
+function Component() {
+	const user = useSuspenseQuery(['user'], fetchUser); 
+	const posts = useSuspenseQuery(['posts'], fetchPosts);
+} 
+```
+
+- 방법1: useSuspenseQuery를 사용하면 직렬로 요청하여 Request Waterfall이 발생한다. -> useSuspenseQueries를 사용하면 원하던 병렬로 요청
+- 방법2: Prefetching하거나 페이지 로드 또는 탐색 시 라우터에서 요청들을 모두 Prefetching
+
+
+>[!tip]
+>v5에서 useQuery의  onSuccess, onError, [^1]onSettled 콜백들은 이제 사용되지 않는다.
+>제거한 이유:
+>- 예측 가능하고 일관성있는 useQuery
+>- 상태 동기화를 목적으로 사용했을 때 발생하는 추가 렌더 사이클. 예) onSuccess 콜백에 로컬 또는 전역 상태 업데이트
+>- 콜백이 호출되지 않을 여지 예) staleTime 설정으로 query function이 호출되지 않아 의도한 콜백이 실행하지 않을 경우
+>
+>따라서 v5이후로는 다음 방법으로 콜백을 다룰 것을 제안하였다.
+>- 전역 콜백 처리 (queryClient)
+>- Error boundary로 에러 처리
+>- statud, isError 등으로 컴포넌트에서 처리
+
+
+
+[^1]: 쿼리가 성공하든 실패하든 무조건 호출됨
+
+[^2]: 앞선 요청이 완료되어야지 다음 요청을 진행할 수 있는 것
