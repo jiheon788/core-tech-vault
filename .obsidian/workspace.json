@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/Monorepo.md",
+                "file": "Library/Nextjs/Nextjs 렌더링.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Monorepo"
+              "title": "Nextjs 렌더링"
             }
           },
           {
@@ -27,15 +27,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/React/Module Federation.md",
+                "file": "JavaScript/비동기.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Module Federation"
+              "title": "비동기"
+            }
+          },
+          {
+            "id": "9c6f7e2951c31154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/Simplicity와 Complexity.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Simplicity와 Complexity"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -92,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "2763178f83b10622",
@@ -109,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dev/Monorepo.md",
+                "file": "Dev/Simplicity와 Complexity.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +133,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Monorepo 의 백링크"
+              "title": "Simplicity와 Complexity 의 백링크"
             }
           },
           {
@@ -128,12 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dev/Monorepo.md",
+                "file": "Dev/Simplicity와 Complexity.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Monorepo 의 나가는 링크"
+              "title": "Simplicity와 Complexity 의 나가는 링크"
             }
           },
           {
@@ -253,12 +267,24 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "d1bc0bfb30cccb1a",
+  "active": "9c6f7e2951c31154",
   "lastOpenFiles": [
+    "Dev/MVC, MVVM.md",
+    "Dev/Monorepo.md",
+    "Dev/MFA (Micro Frontend Architecture).md",
+    "Dev/Docker & Kubernetes.md",
+    "Dev/함수형 프로그래밍.md",
+    "Dev/프론트엔드 테스트 종류.md",
+    "Dev/순환 참조.md",
+    "Dev/반응형 프로그래밍.md",
+    "Dev/디자인 시스템.md",
+    "상태업데이트 다른 결과.md",
+    "JavaScript/비동기.md",
+    "Web/message API.md",
     "Portfolio.canvas",
+    "Library/Nextjs/Nextjs 렌더링.md",
     "Library/React/Module Federation.md",
     "무제.canvas",
-    "Dev/함수형 프로그래밍.md",
     "Library/RxJS.md",
     "Library/Tanstack Query.md",
     "JavaScript/Mutation의 개념과 활용.md",
@@ -271,17 +297,6 @@
     "JavaScript/package.json.md",
     "JavaScript/For Loop vs Higher Order Functions.md",
     "JavaScript/Debouncing과 Throttling.md",
-    "JavaScript/이벤트 위임(Event Delegation).md",
-    "CS/인터넷 창에 www.google.com를 입력하면 생기는 일.md",
-    "CS/프로세스 vs 스레드.md",
-    "CS/CSRF.md",
-    "CS/HTTP 상태 코드.md",
-    "CS/HTTP vs HTTPS.md",
-    "CS/Preflight.md",
-    "CS/XSS.md",
-    "Dev/개발 원칙.md",
-    "Dev/MVC, MVVM.md",
-    "Dev/Simplicity와 Complexity.md",
     "assets/Pasted image 20250208211926.png",
     "assets/Pasted image 20250207224338.png",
     "assets/Pasted image 20250207212257.png",
