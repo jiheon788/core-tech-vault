@@ -29,7 +29,8 @@ Zone.js는 비동기 작업 간에 실행 컨텍스트를 유지하여 비동기
 
 
 ### NgZone
-**NgZone**은 Angular가 변경 탐지를 관리하기 위해 사용하는 서비스이다. Angular는 NgZone을 활용해 애플리케이션에서 발생하는 **비동기 작업**(예: `setTimeout`, HTTP 요청 등)을 추적하고, 비동기 작업이 완료되면 **자동으로 Change Detection을 트리거**한다.
+**NgZone**은 Angular가 변경 탐지를 관리하기 위해 사용하는 서비스이다. (비동기 코드의 실행 시점을 포착하기 위함) 
+Angular는 NgZone을 활용해 애플리케이션에서 발생하는 **비동기 작업**(예: `setTimeout`, HTTP 요청 등)을 추적하고, 비동기 작업이 완료되면 **자동으로 Change Detection을 트리거**한다.
 
 ### Change Detection 전략
 
