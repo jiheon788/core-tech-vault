@@ -15,8 +15,8 @@
               "state": {
                 "file": "Portfolio.canvas",
                 "viewState": {
-                  "x": 477.523579396164,
-                  "y": 1466.2905115485328,
+                  "x": 570.7979317942752,
+                  "y": 2926.569307289443,
                   "zoom": -0.7173685744663297
                 }
               },
@@ -217,6 +217,16 @@
             "id": "5b1f5531778fe6f1",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "bf949fb27102db2c",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -224,7 +234,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 10
       }
     ],
     "direction": "horizontal",
