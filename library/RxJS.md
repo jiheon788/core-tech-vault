@@ -19,18 +19,18 @@ Observable은 값을 푸시(Push-Based) 방식으로 생성하며, 지연 실행
 - 구독 취소 가능
 
 ```tsx
-import { fromEvent } from 'rxjs'
 const button = document.getElementById('button');
 
 // fromEvent로 생성
 const observable = fromEvent(button, 'click')
 
 // 구독
-const subscription = observable.subscribe(**event => console.log(event)**);
+const subscription = observable.subscribe(event => console.log(event));
 
 // 구독 해제
 subscription.unsubscribe();
 
+// ----------
 // new Observable로 직접 생성
 const observable = new Observable(function subscribe(subscriber) {
   const id = setInterval(() => { 

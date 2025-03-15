@@ -13,29 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/Angular/Angular.md",
+                "file": "Dev/함수형 프로그래밍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Angular"
+              "title": "함수형 프로그래밍"
             }
           },
           {
             "id": "2e9b1a67fb20a75c",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Portfolio.canvas",
-                "viewState": {
-                  "x": 430.1392468619253,
-                  "y": 1683.9466108786507,
-                  "zoom": -0.41654580578412076
-                }
+                "file": "Library/RxJS.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "Portfolio"
+              "icon": "lucide-file",
+              "title": "RxJS"
             }
           }
         ],
@@ -263,6 +260,16 @@
             "id": "8514531d528df728",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "e14fb847949482ed",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -270,7 +277,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "horizontal",
@@ -290,16 +297,18 @@
   },
   "active": "2e9b1a67fb20a75c",
   "lastOpenFiles": [
+    "Portfolio.canvas",
+    "Dev/함수형 프로그래밍.md",
+    "Library/RxJS.md",
+    "Dev/반응형 프로그래밍.md",
+    "Library/Angular/Angular.md",
     "Angular 렌더링 원리.md",
     "Library/Angular/Change Detection.md",
-    "Library/Angular/Angular.md",
     "Library/React/React의 렌더링 방식.md",
-    "Portfolio.canvas",
     "Library/Nextjs/Nextjs 렌더링.md",
     "JavaScript/비동기.md",
     "Web/브라우저 렌더링 파이프라인.md",
     "Library/Tanstack Query.md",
-    "Library/RxJS.md",
     "Library/React/useEffect에서 `async` 함수를 직접 사용하지 않는 이유.md",
     "Library/React/Virtual DOM.md",
     "Library/React/Strict mode의 목적.md",
@@ -314,9 +323,6 @@
     "Library/React/Concurrent Rendering.md",
     "Library/React/Composition Pattern.md",
     "Library/React/전역 상태 라이브러리 비교.md",
-    "Library/React/상태업데이트 다른 결과.md",
-    "Library/Angular/Incremental DOM.md",
-    "Library/Angular/Directive.md",
     "무제.canvas",
     "assets/Pasted image 20250208211926.png",
     "assets/Pasted image 20250207224338.png",
