@@ -1,4 +1,4 @@
-# Directive
+# Directive (지시자)
 
 디렉티브는 DOM 요소의 동작이나 구조를 정의하는 데 사용된다. (component는 view (template)을 포함한 directive의 형태)
 

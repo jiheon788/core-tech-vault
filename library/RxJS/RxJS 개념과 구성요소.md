@@ -1,5 +1,5 @@
-# RxJS (Reactive Extensions for JavaScript)
-RxJS는 [[반응형 프로그래밍]]으로 비동기 데이터 스트림을 효과적으로 관리 하기 위해 사용한다. 데이터 스트림이란 시간에 따라 전달되는 데이터의 흐름을 의미한다. 예를 들어 클릭 이벤트, 서버응답, 사용자 입력 등 모두 데이터 스트림이 될 수 있다.
+# RxJS 개념과 구성요소 
+RxJS(Reactive Extensions for JavaScript)는 [[반응형 프로그래밍]]으로 비동기 데이터 스트림을 효과적으로 관리 하기 위해 사용한다. 데이터 스트림이란 시간에 따라 전달되는 데이터의 흐름을 의미한다. 예를 들어 클릭 이벤트, 서버응답, 사용자 입력 등 모두 데이터 스트림이 될 수 있다.
 
 함수형 프로그래밍 스타일로 비동기 작업을 처리하며, 옵저버블, 연산자, 구독 개념을 통해 작업을 구성한다.
 
@@ -44,9 +44,9 @@ observable.subscribe((x) => console.log(x));
 - **구독**: `subscribe`를 호출하여 데이터 수신을 시작.
 - **실행 취소**: `unsubscribe`로 실행 중단 가능.
 
-### Observer
+### Observer (관찰자, 소비자)
 
-Observable에서 전달된 값의 소비자(Consumer)이다. next, error, complete 콜백 함수의 인터페이스를 가지며 어떻게 소비할지 명시하는 역할이다.
+Observable에서 전달된 값의 소비자(Consumer)이다. next, error, complete 콜백 함수의 인터페이스를 가지며 **어떻게 소비할지 명시**하는 역할이다.
 
 ```tsx
 // Observable에서 전달된 각 유형에 대한 콜백 인터페이스 (next, error, complete)
@@ -61,7 +61,7 @@ observable.subscribe(observer);
 
 #### Subscriptions (구독)
 
-`Subscription`은 **Observable**이 **Observer**에 데이터를 발행하도록 연결(구독)하는 과정이다. Observable은 **콜드 스트림**이므로, 구독을 통해 실제로 데이터를 발행하기 시작한다.
+`Subscription`은 **Observable**이 **Observer**에 데이터를 발행하도록 연결(구독)하는 과정이다. Observable은 [[Cold Stream vs Hot Stream#Cold Stream|콜드 스트림]]이므로, 구독을 통해 실제로 데이터를 발행하기 시작한다.
 
 ```tsx
 // 클릭이벤트에 Observable 등록
@@ -72,7 +72,7 @@ const observable = fromEvent(button, 'click')
 
 // A.subscribe(B) : A send notification to B (옵저버가 인자로 넘어감)
 // 볼드 처리가 옵저버로 넘어간다 (실사용에서는 넥스트, 에러, 컴플리트 모두 넘긴다)
-const subscription = observable.subscribe(**event => console.log(event)**);
+const subscription = observable.subscribe(event => console.log(event));
 
 // 내부적으로 옵저버를 만들고 subscriber를 넣어줌
 // subscribe(observer?: PartialObserver<T>): Subscription;
@@ -117,26 +117,12 @@ Subject는 Observable이자 Observer 이다.
 - Observable로서 데이트 스트림을 다른 Observer에게 전파 (멀티캐스트로 작동)
 - 다른 Observable로부터 데이터를 받을 수 있다. (subscribe, unsubscribe)
 
-#### Cold Stream vs Hot Stream
+Subject의 종류
+- `BehaviorSubject`: 초깃값을 가지며 새로운 구독자는 가장 최근값(현재값)을 즉시 전달 받음
+- `ReplaySubject`: 특정 개수 또는 시간 동안 데이터를 기록하고 새로운 구독자에게 이전 데이터를 재생 **(버퍼에 캐싱된 만큼)**
+- `AsyncSubject`: Observable **실행이 완료될 때** 마지막 값만 전달
+- `Void Subject:` 값이 아닌 이벤트 자체만 전달하며, 데이터가 중요하지 않을 때 사용
 
-**Cold Stream**
-- 옵저러블의 파이프라인은 새 구독자에 대해 처음부터 설정되고 각 구독자는 옵저러블의 로직에 **독립적인 실행**
-- ===구독 시점에 데이터 발행. 각 구독자에게 독립적 실행 (생성 → 구독 → 발행)===
-- 유니캐스트
-- 여러 구독자가 있는 경우 동일한 계산 또는 데이터 페치를 여러 번 실행
-- RxJS의 옵저버블은 기본적으로 Cold observable
 
-**Hot Stream**
-- 모든 구독자 간에 단일 실행 경로 공유, 새로운 구독자가 구독하면 기존 데이터 스트림에 가입, 파이프라인은 한번 설정되고 결과는 모든 구독자에게 브로드캐스트 됨
--  ===생성 시점부터 계속 데이터 발행, 구독 여부와 관계없이 실행 (생성 → 발행)===
-- 멀티캐스트
-- **중복 계산을 피하고 싶을 때 효율적**
-- 다중 구독 관계가 생기면서 구독과 해제의 관리가 주의 필요
-
-| 특징          | **Cold Stream** | **Hot Stream**    |
-| ----------- | --------------- | ----------------- |
-| 데이터 발행 시점   | 구독 시 시작         | 생성 시 시작           |
-| 구독자 간 실행 경로 | 독립적             | 공유                |
-| 캐스팅 방식      | 유니캐스트           | 멀티캐스트             |
-| 중복 계산       | 발생              | 없음                |
-| 목적          | 구독자마다 독립된 결과 필요 | 데이터 공유로 효율적 처리 필요 |
+#### Pipe
+[[RxJS 연산자]]의 조립 라인

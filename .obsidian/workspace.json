@@ -13,30 +13,57 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dev/함수형 프로그래밍.md",
+                "file": "Library/Angular/Incremental DOM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "함수형 프로그래밍"
+              "title": "Incremental DOM"
             }
           },
           {
-            "id": "2e9b1a67fb20a75c",
+            "id": "e4ee2da921d229c4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/RxJS.md",
+                "file": "Library/RxJS/RxJS 개념과 구성요소.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "RxJS"
+              "title": "RxJS 개념과 구성요소"
+            }
+          },
+          {
+            "id": "4df6198db5633d5e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/RxJS/RxJS 연산자.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RxJS 연산자"
+            }
+          },
+          {
+            "id": "3ec47f423d0e0e67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Library/RxJS/Backpressure (역압).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Backpressure (역압)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +120,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 428.5,
-    "collapsed": true
+    "width": 279.5
   },
   "right": {
     "id": "2763178f83b10622",
@@ -110,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Portfolio.canvas",
+                "file": "Library/Angular/Incremental DOM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Portfolio 의 백링크"
+              "title": "Incremental DOM 의 백링크"
             }
           },
           {
@@ -270,6 +296,16 @@
             "id": "e14fb847949482ed",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "088c72ac17e01fea",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -277,12 +313,11 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -295,15 +330,21 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "2e9b1a67fb20a75c",
+  "active": "7d21342c96eb2a94",
   "lastOpenFiles": [
-    "Portfolio.canvas",
-    "Dev/함수형 프로그래밍.md",
-    "Library/RxJS.md",
-    "Dev/반응형 프로그래밍.md",
-    "Library/Angular/Angular.md",
-    "Angular 렌더링 원리.md",
+    "Library/Angular/Directive.md",
     "Library/Angular/Change Detection.md",
+    "Library/Angular/데이터 바인딩(Data Binding).md",
+    "Dev/반응형 프로그래밍.md",
+    "Library/RxJS/RxJS 개념과 구성요소.md",
+    "Library/RxJS/RxJS 연산자.md",
+    "Library/RxJS/Backpressure (역압).md",
+    "Library/RxJS/Cold Stream vs Hot Stream.md",
+    "Library/Angular/Angular 렌더링 원리.md",
+    "Library/RxJS",
+    "Dev/함수형 프로그래밍.md",
+    "Portfolio.canvas",
+    "Library/Angular/Angular.md",
     "Library/React/React의 렌더링 방식.md",
     "Library/Nextjs/Nextjs 렌더링.md",
     "JavaScript/비동기.md",
@@ -319,10 +360,6 @@
     "Library/React/Module Federation.md",
     "Library/React/JSX (JavaScript XML).md",
     "Library/React/Hooks.md",
-    "Library/React/FLUX 패턴.md",
-    "Library/React/Concurrent Rendering.md",
-    "Library/React/Composition Pattern.md",
-    "Library/React/전역 상태 라이브러리 비교.md",
     "무제.canvas",
     "assets/Pasted image 20250208211926.png",
     "assets/Pasted image 20250207224338.png",
@@ -342,7 +379,6 @@
     "assets/박지헌_Resume_241031.pdf",
     "assets",
     "Dev",
-    "Library/Nextjs",
-    "CS"
+    "Library/Nextjs"
   ]
 }

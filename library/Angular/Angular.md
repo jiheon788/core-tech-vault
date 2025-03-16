@@ -11,7 +11,7 @@ Angular는 Google에서 개발한 오픈소스 웹 애플리케이션 프레임�
 - [[Angular CLI]] 지원
 - 다양한 내장 [[Directive]]와 파이프
 - 뷰 캡슐화
-- [[RxJS]] 기반으로 비동기 데이터 스트림 
+- [[RxJS 개념과 구성요소]] 기반으로 비동기 데이터 스트림 
 - [[Incremental DOM]] 렌더링 엔진 사용
 
 
