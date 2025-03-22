@@ -55,15 +55,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Library/RxJS/Backpressure (역압).md",
+                "file": "Dev/함수형 프로그래밍/함수형 프로그래밍 개념.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backpressure (역압)"
+              "title": "함수형 프로그래밍 개념"
+            }
+          },
+          {
+            "id": "514efe14e2e90d4a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/함수형 프로그래밍/Monad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Monad"
+            }
+          },
+          {
+            "id": "ff2c2daac0732680",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Dev/함수형 프로그래밍/Fuctor.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fuctor"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +149,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 279.5
+    "width": 250.5,
+    "collapsed": true
   },
   "right": {
     "id": "2763178f83b10622",
@@ -306,6 +336,16 @@
             "id": "088c72ac17e01fea",
             "type": "leaf",
             "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "새 탭"
+            }
+          },
+          {
+            "id": "ec7bc11c8f584b7d",
+            "type": "leaf",
+            "state": {
               "type": "graph-analysis",
               "state": {},
               "icon": "GA-ICON",
@@ -330,19 +370,22 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "7d21342c96eb2a94",
+  "active": "5073bc37b5ca2eeb",
   "lastOpenFiles": [
+    "Dev/함수형 프로그래밍/Fuctor.md",
+    "Dev/함수형 프로그래밍/Monad.md",
+    "Dev/함수형 프로그래밍/함수형 프로그래밍 개념.md",
+    "Dev/반응형 프로그래밍.md",
+    "Dev/함수형 프로그래밍",
+    "Library/RxJS/Backpressure (역압).md",
     "Library/Angular/Directive.md",
     "Library/Angular/Change Detection.md",
     "Library/Angular/데이터 바인딩(Data Binding).md",
-    "Dev/반응형 프로그래밍.md",
     "Library/RxJS/RxJS 개념과 구성요소.md",
     "Library/RxJS/RxJS 연산자.md",
-    "Library/RxJS/Backpressure (역압).md",
     "Library/RxJS/Cold Stream vs Hot Stream.md",
     "Library/Angular/Angular 렌더링 원리.md",
     "Library/RxJS",
-    "Dev/함수형 프로그래밍.md",
     "Portfolio.canvas",
     "Library/Angular/Angular.md",
     "Library/React/React의 렌더링 방식.md",
@@ -358,8 +401,6 @@
     "Library/React/React에서 불변성이 중요한 이유.md",
     "Library/React/React 18, 19.md",
     "Library/React/Module Federation.md",
-    "Library/React/JSX (JavaScript XML).md",
-    "Library/React/Hooks.md",
     "무제.canvas",
     "assets/Pasted image 20250208211926.png",
     "assets/Pasted image 20250207224338.png",
@@ -378,7 +419,6 @@
     "Dev",
     "assets/박지헌_Resume_241031.pdf",
     "assets",
-    "Dev",
-    "Library/Nextjs"
+    "Dev"
   ]
 }
