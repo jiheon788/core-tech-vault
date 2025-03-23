@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -357,7 +357,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -370,10 +371,10 @@
       "obsidian-kanban:새 보드 만들기": false
     }
   },
-  "active": "5073bc37b5ca2eeb",
+  "active": "3ec47f423d0e0e67",
   "lastOpenFiles": [
-    "Dev/함수형 프로그래밍/Fuctor.md",
     "Dev/함수형 프로그래밍/Monad.md",
+    "Dev/함수형 프로그래밍/Fuctor.md",
     "Dev/함수형 프로그래밍/함수형 프로그래밍 개념.md",
     "Dev/반응형 프로그래밍.md",
     "Dev/함수형 프로그래밍",
